@@ -1,0 +1,188 @@
+/**** Mobile First Media Queries ****/
+
+
+/*** Up to 5200px 25% ***/
+@media only screen and (max-width: 325em) {
+  
+body {
+    font-size: 400%;
+} 
+}
+
+/*** Up to 3904px 33% ***/
+@media only screen and (max-width: 244em) {
+    
+body {
+     font-size: 300.5%;
+}         
+}
+
+/*** Up to 2640px 50% ***/
+@media only screen and (max-width: 165em) {
+    
+body {
+     font-size: 200%;
+}   
+}
+
+/*** Up to 2000px 67% ***/
+@media only screen and (max-width: 125em) {
+    
+body {
+     font-size: 150.2%;
+}     
+}
+
+/*** Up to 1840px 75% ***/
+@media only screen and (max-width: 115em) {
+ 
+body {
+     font-size: 133.3%;
+}        
+}
+
+/*** Up to 1520px 90% ***/
+@media only screen and (max-width: 95em) {
+ 
+body {
+     font-size: 111.1%;
+}        
+}
+
+/*** Up to 1360px 100% ***/
+@media only screen and (max-width: 85em) {
+   
+body {
+    font-size: 95%;
+} 
+}
+    
+/*** Up to 1280px 100% ***/    
+@media only screen and (max-width: 80em) {
+    
+body {
+    font-size: 95%;
+} 
+}
+
+/*** Up to 1200px 110% ***/
+@media only screen and (max-width: 75em) {
+  
+body {
+    font-size: 90%;
+}   
+}
+
+/*** Up to 1120px ***/
+@media only screen and (max-width: 70em) {
+  
+body {
+    font-size: 80%;  
+}         
+}
+
+/*** Up to 1040px 125% ***/
+@media only screen and (max-width: 65em) {
+    
+body {
+     font-size: 78%;
+}    
+}
+
+/*** Up to 976px ***/
+@media only screen and (max-width: 61em) {
+  
+body {
+    font-size: 70%;
+}      
+}
+
+/*** Up to 880px 150% ***/
+@media only screen and (max-width: 55em) {
+  
+body {
+   font-size: 62%;
+}   
+}
+
+
+/************ Change Format ************/
+
+
+/*** Up to 800px 175% ***/
+@media only screen and (max-width: 50em) {
+ 
+body {
+    font-size: 92%;
+}    
+}
+
+/*** Up to 720px ***/
+@media only screen and (max-width: 45em) {
+ 
+body {
+    font-size: 90%;
+}          
+}
+
+/*** Up to 640px ***/
+@media only screen and (max-width: 40em) {
+    
+body {
+    font-size: 89%;
+}      
+}
+
+/*** Up to 560px ***/
+@media only screen and (max-width: 35em) {
+  
+body {
+    font-size: 81%;
+}        
+}
+
+/*** Up to 480px ***/
+@media only screen and (max-width: 30em) {
+    
+body {
+    font-size: 71%;
+}        
+}
+
+/*** Up to 400px ***/
+@media only screen and (max-width: 25em) {
+
+body {
+    font-size: 66%;
+}   
+}
+
+/*** Up to 336px ***/
+@media only screen and (max-width: 21em) {
+   
+body {
+    font-size: 66%;
+}  
+}
+
+/*** Up to 256px ***/
+@media only screen and (max-width: 16em) {
+   
+body {
+    font-size: 50%;
+}   
+}
+
+/*** Up to 224px ***/
+@media only screen and (max-width: 14em) {
+
+body {
+    font-size: 50%;
+}    
+    
+/* Top*/
+
+#top {
+    height: 12em;
+}   
+}
