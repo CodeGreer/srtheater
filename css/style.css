@@ -58,9 +58,12 @@ html {
 }
 
 body {
+    width: 80%;
+    margin: 0 10%;
     font-size: 100%;
     line-height: 1.625; /* 26px */
-    background-color: #EFE6D2;
+    /* background-color: #EFE6D2; */
+    background-color: #000000;
 }
 
 #container {
@@ -68,6 +71,7 @@ body {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
+    background-color: #EFE6D2;
 }
 
 /* html, body, #container {
@@ -82,7 +86,8 @@ h2 {
 }
 
 p {
-    font-size: 2em;
+    font-family: Corbel;
+    font-size: 1.2em;
 }
 
 .cody {
@@ -147,21 +152,27 @@ img {
     max-width: 100%;
     width: 34%;
     margin: 0 50% 0 0;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 .current_show {
-    width: 90%;
-    margin: 0 5%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1% 0 4% 0;
     font-size: 3em;
     color: #FFFFFF;
     text-align: center;
 }
 
 .buytickets_home {
-    width: 20%;
+    width: 22%;
 }
 
+@-moz-document url-prefix() {
+    .current_show {
+        padding: 1% 0;
+    }
+}
 /* Sections */
 
 .section {
@@ -171,9 +182,15 @@ img {
 }
 
 .image_up {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+#upcoming p {
     width: 90%;
     margin: 0 5%;
-    display: block;
+    padding: 2% 0;
 }
 
 #content_about, #content_aud, #content_vol {
@@ -219,11 +236,17 @@ img {
 #map {
     max-width: 100%;
     width: 40%;
+    height: 0;
     float: left;
     position: relative;
     padding-bottom: 30%;
-    height: 0;
     overflow: hidden;
+}
+
+@-moz-document url-prefix() {
+    #map {
+        height: 20em;
+    }
 }
 
 #map iframe {
@@ -244,6 +267,10 @@ img {
     text-align: right;
 }
 
+#address p {
+    font-size: 1.8em;
+}
+
 /* Footer */ 
 
 #push {
@@ -251,6 +278,7 @@ img {
     width: 100%;
     height: 2em;
     margin: 0 auto;
+    background-color: #EFE6D2;
 }
     
 #footer{
@@ -267,13 +295,13 @@ img {
 .logo {
     display: block;
     float: left; 
-    width: 20.1%;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
 
 #footer_menu {
-    width: 20%;
+    width: 14%;
     float: right;
     position: relative;
     top: 51%;
@@ -293,7 +321,7 @@ img {
 #footer_menu a:active {color: #FFFFFF; }
 
 #social {
-    width: 20%;
+    width: 25%;
     float: right;
     position: relative;
     top: 50%;
@@ -304,6 +332,10 @@ img {
 #social li {
     display: inline;
     list-style-type: none;
+}
+
+#social li a {
+    border-bottom: 0;
 }
 
 .social_media {
@@ -318,6 +350,7 @@ img {
     font-size: .9em;
     color: #000000;
     text-align: center;
+    background-color: #EFE6D2;
 }
 
 #copyright li {

@@ -59,8 +59,8 @@
 			setTimeout(function()  {
 				$(this).blur();
 				if ($curtainopen == false) { 
-					$(".leftcurtain").stop().animate({width:'60px'}, 2000 );
-					$(".rightcurtain").stop().animate({width:'60px'},2000 );
+					$(".leftcurtain").stop().animate({width:'10%'}, 2000 );
+					$(".rightcurtain").stop().animate({width:'10%'},2000 );
 					$('button').removeAttr('hidden');
 					
 					$curtainopen = true;
@@ -85,8 +85,8 @@
         <div class="leftcurtain"><img alt="Left side theater curtain" src="images/frontcurtain.jpg"/></div>
         <div class="rightcurtain"><img alt="Right side theater curtain" src="images/frontcurtain.jpg"/></div>
         <img class="marquee" alt="Staged Right Theater Presents" src="images/sr_presents.png"/>
-        <h1 class="current_show cody">An Upcoming Play<br>July 1 - 31</h1>
-        <img class="img buytickets_home" alt="Buy Staged Right Theater tickets" src="images/_buy_tickets.gif">
+        <h1 class="current_show cody">Wait!<br>September 23 - October 2, 2016</h1>
+        <img class="img buytickets_home" alt="Buy Staged Right Theater tickets" src="images/buy_tickets.png">
         <a class="rope" href="#">
         <!-- <img src="images/rope.png"/> -->
         </a>  
@@ -95,7 +95,11 @@
     
 <!-- Upcoming Show -->   
     <div id="upcoming">
-        <img class="img image_up" alt="Staged Right Theater" src="images/CenterPhoto.jpg">
+        <img class="img image_up" alt="Staged Right Theater" src="images/WaitPoster.jpg">
+        
+        <p>Our girl Wendy Burger stands on the edge of a summer that will change her life forever. It's the summer she moves out of her father's house (and into the UPS truck). The summer she starts a theatre with the guy she used to date (no one else would have them). The summer she performs her first acting role (Lisa in Hamlet—with a flickering blue light playing the lead, à la Tinkerbell). The summer when she gets tips from the actress, Floating Piñata Head. But most of all it's the summer when she meets O Vixen My Vixen (yes, that's her full name!) who is both beautiful and oh-so-deep. It's the summer that changes everything in Wendy's life. The title, Wait!, identifies that moment between the question and the answer, between the old life and the new. It's a moment of great power. No matter what happens, you will not be the same. 
+Directed by Staged Right’s artistic director, Starshine Stanfield, Wait! kicks off Staged Right Theatre’s very first season! 
+</p>
     </div>
     
 <!-- End Upcoming Show -->    
@@ -133,19 +137,12 @@
 <!-- Find Us -->         
     <div id="find_us" class="section"> 
         <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.9493402611415!2d-84.15061268534046!3d33.86519643501252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a5a6a418152f%3A0x2cd6477353eb02a3!2s329+Wayward+Wind+Dr+SW%2C+Lilburn%2C+GA+30047!5e0!3m2!1sen!2sus!4v1466813726772" width="600" height="450" style="border:0" allowfullscreen></iframe>
-            
-           <!-- <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC1KO7rri_nYskIBMHGW7_DrmDFc6laPj8 
-              &q=329+Wayward+Wind+Drive+Lilburn+Georgia+30047
-              &attribution_source=Google+Maps+Embed+API
-              &attribution_web_url=http://codegreer.com/testing/srtheater/index.php/
-              &attribution_ios_deep_link_id=comgooglemaps://?daddr=329+Wayward+Wind+Drive+Lilburn+Georgia+30047">
-            </iframe> -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.1272510773247!2d-84.13617758533991!3d33.886376433901226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a4fb5b63be2b%3A0xbf82e4245779167!2s76+Main+St+NW%2C+Lilburn%2C+GA+30047!5e0!3m2!1sen!2sus!4v1467087750904" width="600" height="450" style="border:0" allowfullscreen></iframe>
         </div>
 
         <div id="address">
             <h2>Find Us</h2>
-            <p> 123 Street</p>
+            <p>76 Main St NW,</p>
             <p>Lilburn, Georgia 30047</p>
             <p><a href="tel:770-555-1212">770&ndash;555&ndash;1212</a></p>
         </div>
@@ -164,8 +161,9 @@
     
     <div id="social">
         <ul>
-            <li><img class="img social_media" alt="Staged Right Theater Facebook page" src="images/facebook.png"></li>
-            <li><img class="img social_media" alt="Staged Right Theater Tumblr page" src="images/tumbler.png"></li>
+            <li><a href="https://www.facebook.com/stagedrighttheatre/"><img class="img social_media" alt="Staged Right Theater Facebook page" src="images/facebook.png"></a></li>
+            <li><a href="https://twitter.com/StagedRightGA"><img class="img social_media" alt="Staged Right Theater Twitter page" src="images/tumbler.png"></a></li>
+            <li><a href="https://www.instagram.com/stagedrightga"><img class="img social_media" alt="Staged Right Theater Instagram page" src="images/tumbler.png"></a></li>
         </ul>
     </div>
     
