@@ -114,6 +114,10 @@ body {
  
 body {
     font-size: 92%;
+} 
+    
+#map {
+    padding-bottom: 40%;
 }    
 }
 
@@ -137,8 +141,111 @@ body {
 @media only screen and (max-width: 35em) {
   
 body {
-    font-size: 81%;
-}        
+    font-size: 85%;
+}  
+    
+h2 {
+    text-align: center;
+}  
+    
+.rwd_break_560 {
+    display: inline;
+}
+    
+    
+/* Landing View */    
+    
+.marquee {
+    width: 74%;
+    margin: 4% 14%;
+} 
+    
+.current_show {
+    width: 76%;
+    margin: 0 12%;
+    font-size: 2.6em;
+}
+
+.buytickets_home {
+    width: 50%;
+    margin: 0 25%;
+}
+    
+/* Find Us */    
+    
+#find_us {
+    display: block;
+    padding-top: 1em;
+}
+
+#map {
+    width: 90%;
+    margin: 0 5%;
+    float: none;
+    position: relative;
+    padding-bottom: 70%;
+}
+
+#address {
+    display: none;
+}
+    
+#address_mobile {
+    display: block;
+    max-width: 100%;
+    width: 90%;
+    margin: 0 5%;
+    padding: 0 0 4% 0;
+    float: none;
+}
+
+#address_mobile p {
+    text-align: center;
+} 
+    
+/* Footer */
+    
+#footer{
+    height: auto;
+}
+
+.logo {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+    
+#footer_menu, #social {
+    width: 90%;
+    margin: 0 5%;
+    padding: 2% 0;
+    float: none;
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+}     
+
+.social_media {
+    width: 15%;
+}   
+
+#copyright {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1% 0 .75% 0;
+    font-family: Corbel;
+    font-size: .9em;
+    color: #000000;
+    text-align: center;
+    background-color: #EFE6D2;
+}
+
+#copyright li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 2%;
+}    
+     
 }
 
 /*** Up to 480px ***/

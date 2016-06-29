@@ -46,6 +46,8 @@ hr { display: block; height: 0.063em; border: 0; border-top: 1px solid #ccc; mar
 
 input, select { vertical-align: middle; }
 
+
+
 /* All of your setup and non media query CSS */
 
 @font-face {
@@ -58,18 +60,17 @@ html {
 }
 
 body {
-    width: 80%;
-    margin: 0 10%;
+    width: 100%;
+    margin: 0 auto;
     font-size: 100%;
     line-height: 1.625; /* 26px */
-    /* background-color: #EFE6D2; */
     background-color: #000000;
 }
 
 #container {
     max-width: 105em;
-    width: 100%;
-    margin: 0 auto;
+    width: 80%%;
+    margin: 0 10%;
     overflow: hidden;
     background-color: #EFE6D2;
 }
@@ -92,25 +93,51 @@ p {
 
 .cody {
     font-family: 'Codystar', cursive;
+    letter-spacing: .08em;
 }
 
-a:link {color: #000000; text-decoration: none;} 
-a:visited {color: #000000;}  
-a:hover {color: #000000; border-bottom: .08em dotted }  
-a:active {color: #000000;}  
+.raleway {
+    font-family: 'Raleway Dots', cursive'
+}
+
+.black:link, .black:visited, .black:active {
+    color: #000000; 
+    text-decoration: none;
+}  
+
+.black:hover {
+    color: #000000; 
+    border-bottom: .02em dotted;    
+}  
+
+
+.white:link, .white:visited, .white:active {
+    color: #FFFFFF; 
+    text-decoration: none; 
+}  
+.white:hover {
+    color: #FFFFFF; 
+    border-bottom: .08em dotted 
+}  
 
 img {
     max-width: 100%;
 }
 
+.rwd_break_560 {
+    display: none;
+}
 
 /* Curtain */
 
 #curtain {
     text-align: center;
     background-image: url(../images/blackcurtain.jpg);
+    background-color: #000000;
     background-size: 100% 100%;
     overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
     height: 100vh;
 }
 
@@ -120,19 +147,19 @@ img {
 
 .leftcurtain {
     width: 50%;
-    height: 100vh;
+    height: 100%;
     top: 0px;
     left: 0px;
-    position: absolute;
+    position: fixed;
     z-index: 2;
 }
 
  .rightcurtain {
     width: 51%;
-    height: 100vh;
+    height: 100%;
     right: 0px;
     top: 0px;
-    position: absolute;
+    position: fixed;
     z-index: 3;
 }
 
@@ -141,31 +168,35 @@ img {
     height: 100%;
 }
 
-.rope {
+/* .rope {
     position: absolute;
     top: 0;
     left: 90%;
     z-index: 4;
-}
+} */
 
 .marquee {
     max-width: 100%;
-    width: 34%;
-    margin: 0 50% 0 0;
-    margin-top: 2%;
+    width: 30%;
+    margin: 2% 45% 0 0%;
 }
 
 .current_show {
-    width: 100%;
-    margin: 0 auto;
-    padding: 1% 0 4% 0;
+    width: 80%;
+    margin: 0 10%;
+    padding: 0 0 6% 0;
     font-size: 3em;
     color: #FFFFFF;
     text-align: center;
 }
 
+.font_12 {
+    font-size: 1.2em;
+}
+
 .buytickets_home {
-    width: 22%;
+    width: 20%;
+    margin: 0 5% 0 58%;
 }
 
 @-moz-document url-prefix() {
@@ -173,6 +204,7 @@ img {
         padding: 1% 0;
     }
 }
+
 /* Sections */
 
 .section {
@@ -180,6 +212,8 @@ img {
     width: 100%;
     overflow: hidden;
 }
+
+/* Upcoming */
 
 .image_up {
     width: 100%;
@@ -192,6 +226,8 @@ img {
     margin: 0 5%;
     padding: 2% 0;
 }
+
+/* About */
 
 #content_about, #content_aud, #content_vol {
     display: flex;
@@ -207,13 +243,17 @@ img {
     width: 40%;
 }
 
+/* Auditions */
+
 #auditions {
-    padding: 2% 0;
+    padding: 2% 0 5% 0;
 }
+
+/* Volunteer */
 
 #about, #volunteer {
     background-color: #D7C18E;
-    padding: 2% 0;
+    padding: 2% 0 5% 0;
 }
 
 #volunteer h2 {
@@ -225,6 +265,8 @@ img {
     justify-content: space-around;
     align-items: center;
 }
+
+/* Find Us */
 
 #find_us {
     display: flex;
@@ -257,18 +299,20 @@ img {
     height: 100% !important;
 }
 
-
 #address {
     max-width: 100%;
     width: 40%;
     padding: 6% 0;
     float: right;
-    font-family: 'Great Vibes', cursive;
-    text-align: right;
 }
 
-#address p {
+#address_mobile {
+    display: none;
+}
+
+#address p, #address_mobile p {
     font-size: 1.8em;
+    text-align: right;
 }
 
 /* Footer */ 
@@ -313,12 +357,7 @@ img {
 #footer_menu li {
     font-size: 1.6em;
     list-style-type: none;
-}
-
-#footer_menu a:link {color: #FFFFFF; text-decoration: none; } 
-#footer_menu a:visited {color: #FFFFFF; }  
-#footer_menu a:hover {color: #FFFFFF; border-bottom: .08em dotted }  
-#footer_menu a:active {color: #FFFFFF; }
+} 
 
 #social {
     width: 25%;
@@ -358,8 +397,3 @@ img {
     list-style-type: none;
     padding: 0 2%;
 }
-
-#copyright a:link {color: #000000; text-decoration: none; } 
-#copyright a:visited {color: #000000; }  
-#copyright a:hover {color: #000000; border-bottom: .08em dotted }  
-#copyright a:active {color: #000000; }
