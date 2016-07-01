@@ -67,12 +67,16 @@ body {
     background-color: #000000;
 }
 
-#container {
+#container, #container2 {
     max-width: 105em;
-    width: 80%%;
+    width: 80%;
     margin: 0 10%;
     overflow: hidden;
     background-color: #EFE6D2;
+}
+
+#container2 {
+    background-color: #1a1a1a;
 }
 
 /* html, body, #container {
@@ -80,10 +84,29 @@ height: 100%;
 overflow: auto;
 } */
 
+h1 {
+    font-size: 4em;
+    font-family: 'Codystar', cursive;
+    text-align: center;
+    color: #D0D0D0;
+    letter-spacing: .08em;
+}
+
 h2 {
     font-size: 3.5em;
     font-family: 'Great Vibes', cursive;
     text-align: right;
+}
+
+h3 {
+    width: 80%;
+    margin: 0 10%;
+    padding: 0 0 6% 0;
+    font-family: 'Codystar', cursive;
+    font-size: 3em;
+    color: #D0D0D0;
+    text-align: center;
+    letter-spacing: .08em;
 }
 
 p {
@@ -96,8 +119,12 @@ p {
     letter-spacing: .08em;
 }
 
-.raleway {
-    font-family: 'Raleway Dots', cursive'
+.great {
+    font-family: 'Great Vibes', cursive;
+}
+
+.white {
+    color: #FAFAFA;
 }
 
 .black:link, .black:visited, .black:active {
@@ -110,7 +137,6 @@ p {
     border-bottom: .02em dotted;    
 }  
 
-
 .white:link, .white:visited, .white:active {
     color: #FFFFFF; 
     text-decoration: none; 
@@ -118,7 +144,11 @@ p {
 .white:hover {
     color: #FFFFFF; 
     border-bottom: .08em dotted 
-}  
+}
+
+.bold {
+    font-weight: 900;
+}
 
 img {
     max-width: 100%;
@@ -181,17 +211,18 @@ img {
     margin: 2% 45% 0 0%;
 }
 
-.current_show {
-    width: 80%;
-    margin: 0 10%;
-    padding: 0 0 6% 0;
-    font-size: 3em;
-    color: #FFFFFF;
-    text-align: center;
-}
+.show:link, .show:visited, .show:active {
+    color: #C0C0C0; 
+    text-decoration: none; 
+}  
+.show:hover {
+    color: #C0C0C0; 
+    border-bottom: .08em dotted 
+}  
 
 .font_12 {
     font-size: 1.2em;
+    color: #C0C0C0;
 }
 
 .buytickets_home {
@@ -205,7 +236,7 @@ img {
     }
 }
 
-/* Sections */
+/* Home Page Sections */
 
 .section {
     max-width: 105em;
@@ -213,21 +244,17 @@ img {
     overflow: hidden;
 }
 
-/* Upcoming */
-
-.image_up {
+.image_top {
     width: 100%;
     margin: 0 auto;
     display: block;
 }
 
-#upcoming p {
+#top p {
     width: 90%;
     margin: 0 5%;
     padding: 2% 0;
 }
-
-/* About */
 
 #content_about, #content_aud, #content_vol {
     display: flex;
@@ -243,13 +270,9 @@ img {
     width: 40%;
 }
 
-/* Auditions */
-
 #auditions {
     padding: 2% 0 5% 0;
 }
-
-/* Volunteer */
 
 #about, #volunteer {
     background-color: #D7C18E;
@@ -265,8 +288,6 @@ img {
     justify-content: space-around;
     align-items: center;
 }
-
-/* Find Us */
 
 #find_us {
     display: flex;
@@ -315,6 +336,55 @@ img {
     text-align: right;
 }
 
+/* Secondary Pages */
+
+.srt_page {
+    width: 40%;
+    margin: 2%;
+}
+
+.page_content {
+    width: 50%;
+    margin-top: 5%;
+    float: left;
+}
+
+.page_content img {
+    width: 90%;
+    padding: 0 5%;
+}
+
+img.buytickets_page {
+    width: 60%;
+    margin: 2% 15%;
+}
+
+.page_content h2 {
+    margin-right: 5%;
+}
+
+.page_content p {
+    margin-bottom:  4%;
+    padding: 0 5% 0 0;
+    text-align: right;
+    color: #FAFAFA;
+}
+
+.page_content2 {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content:center;
+}
+
+.page_content2 ul {
+    width: 30%;
+    list-style-type: none;
+    font-family: 'Corbel';
+    font-size: 1.2em;
+    color: #FAFAFA;
+}
+
 /* Footer */ 
 
 #push {
@@ -322,7 +392,6 @@ img {
     width: 100%;
     height: 2em;
     margin: 0 auto;
-    background-color: #EFE6D2;
 }
     
 #footer{
