@@ -101,7 +101,7 @@ h2 {
 h3 {
     width: 80%;
     margin: 0 10%;
-    padding: 0 0 6% 0;
+    padding: 0 0 5% 0;
     font-family: 'Codystar', cursive;
     font-size: 3em;
     color: #D0D0D0;
@@ -231,8 +231,8 @@ img {
 }
 
 @-moz-document url-prefix() {
-    .current_show {
-        padding: 1% 0;
+    h3 {
+        padding-bottom: 3%;
     }
 }
 
@@ -361,6 +361,7 @@ img.buytickets_page {
 
 .page_content h2 {
     margin-right: 5%;
+    color: #FAFAFA;
 }
 
 .page_content p {
