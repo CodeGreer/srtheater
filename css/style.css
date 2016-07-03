@@ -175,6 +175,7 @@ p {
     color: #FFFFFF; 
     text-decoration: none; 
 }  
+
 .white_h5:hover {
     color: #FFFFFF; 
     border-bottom: .02em dotted 
@@ -416,12 +417,8 @@ img {
 
 .page_content img {
     width: 100%;
+    margin-top: 17%;
     float: left;
-}
-
-img.buytickets_page {
-    width: 60%;
-    margin: 0 15%;
 }
 
 .page_content h2, .partner_content h5 {
@@ -460,12 +457,17 @@ img.buytickets_page {
 }
 
 .page_content2 ul {
-    width: 30%;
+    width: 33.3%;
     list-style-type: none;
     font-family: 'Corbel';
     font-size: 1.2em;
     color: #FAFAFA;
     text-align: justify;
+}
+
+.page_content2 ul li {
+    width: 95%;
+    padding-left: 5%;
 }
 
 .page_content2 {

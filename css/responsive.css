@@ -332,11 +332,11 @@ h4 {
     width: 84%;
     margin: 4% 8%;
 }     
-    
+  
 .page_content img {
     width: 100%;
-    margin: 0;
-}        
+    margin: 0 0 5% 0;
+}     
     
 .page_content ul, .page_content2 ul, .page_content > .rt_800 {
     text-align: center;
@@ -357,8 +357,20 @@ h4 {
 @media only screen and (max-width: 30em) {
     
 body {
-    font-size: 85%
+    font-size: 90%
 } 
+    
+p, h4.font_25 {
+    font-size: 1.4em;
+}
+    
+p.font_25 {
+    font-size: 1.55em;
+}
+    
+ul li {
+    font-size: 1.2em;
+}   
    
 }
 
@@ -375,23 +387,11 @@ body {
 @media only screen and (max-width: 21em) {
    
 body {
-    font-size: 70%;
+    font-size: 74%;
 }  
  
 h4 {
     padding-top: 8%;
-}
-    
-p, h4.font_25 {
-    font-size: 1.4em;
-}
-    
-p.font_25 {
-    font-size: 1.55em;
-}
-    
-ul li {
-    font-size: 1.2em;
 }
 }
 

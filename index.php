@@ -111,7 +111,7 @@
           
 <!-- Cast and Crew -->         
     <div id="auditions" class="section"> 
-        <h2><a class="black" href="#">Auditions</a></h2>
+        <h2><a class="black" href="auditions.html">Auditions</a></h2>
         <div id="content_aud">
             <img class="img image_aud" alt="Staged Right Theater auditions for" src="images/11755108.jpg">
             <img class="img image_aud" alt="Staged Right Theater auditions for" src="images/12308719.jpg">
@@ -121,7 +121,7 @@
     
 <!-- Volunteer -->     
     <div id="volunteer" class="section">
-        <h2><a class="black" href="#">Volunteer</a></h2>
+        <h2><a class="black" href="volunteer.html">Volunteer</a></h2>
         <div id="content_vol">
             <img class="img image_vol" alt="Staged Right Theater volunteers" src="images/12032105.jpg">
             <img class="img image_vol" alt="Staged Right Theater volunteers" src="images/13092020.jpg">
@@ -167,15 +167,14 @@
         </ul>
     </div>
     
-    <div id="footer_menu">
-        <ul>
-            <li><a class="white" href="#">About</a></li>
-            <li><a class="white" href="#">Partners</a></li>
-            <li><a class="white" href="#">Volunteer</a></li>
-            <li><a class="white" href="#">Find Us</a></li>
-            <li><a class="white" href="#">Backstage</a></li>
-        </ul>
-    </div>
+    <nav id="footer_menu">
+        <a class="white flex" href="about.html">About</a>
+        <a class="white flex" href="auditions.html">Auditions</a>
+        <a class="white flex" href="volunteer.html">Volunteer</a>
+        <a class="white flex" href="index.html#find_us">Find Us</a>
+        <a class="white flex" href="partners.html">Partners</a>
+        <a class="white flex" href="#">Backstage</a>
+    </nav>
        
 </div>  
 <!-- End Footer -->  
@@ -183,8 +182,8 @@
 <!-- Copyright -->
     <div id="copyright">
         <ul class="copy">
-            <li>Site Design by <a class="black" href="http://invisionsdesign.com/">In Visions Design</a> and Development by <a class="black" href="http://www.codegreer.com/">Code Greer</a></li>
-            <li><span class="rwd_break_560"><br></span>&copy;<?php $current_year=date("o");
+            <li>Website by <a class="black" href="http://invisionsdesign.com/">In Visions Design</a> &amp; <a class="black" href="http://www.codegreer.com/">Code Greer</a></li>
+            <li><span class="rwd_break_640"><br></span>&copy;<?php $current_year=date("o");
                         if ($current_year=="2016")
                         echo "2016";
                         else
