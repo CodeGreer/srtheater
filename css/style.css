@@ -76,13 +76,8 @@ body {
 }
 
 #container2 {
-    background-color: #1a1a1a;
+    background-color: #1A1A1A;
 }
-
-/* html, body, #container {
-height: 100%;
-overflow: auto;
-} */
 
 h1 {
     font-size: 4em;
@@ -90,6 +85,7 @@ h1 {
     text-align: center;
     color: #D0D0D0;
     letter-spacing: .08em;
+    margin-top: -5%;
 }
 
 h2 {
@@ -101,7 +97,7 @@ h2 {
 h3 {
     width: 80%;
     margin: 0 10%;
-    padding: 0 0 5% 0;
+    padding: 0 0 2% 0;
     font-family: 'Codystar', cursive;
     font-size: 3em;
     color: #D0D0D0;
@@ -109,9 +105,38 @@ h3 {
     letter-spacing: .08em;
 }
 
+@-moz-document url-prefix() {
+    h3 {
+        margin-top: -1em;
+    }
+}
+
+h4 {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Corbel';
+    font-size: 1.2em;
+    color: #FAFAFA;
+    text-align: center;
+}
+ 
+h5 {
+    font-size: 2.5em;
+    font-family: 'Great Vibes', cursive;
+    text-align: right;
+}
+
 p {
     font-family: Corbel;
     font-size: 1.2em;
+}
+
+.font_25 {
+    font-size: 1.25em;
+}
+
+.font_75 {
+    font-size: 1.75em;
 }
 
 .cody {
@@ -146,17 +171,43 @@ p {
     border-bottom: .08em dotted 
 }
 
+.white_h5:link, .white_h5:visited, .white_h5:active {
+    color: #FFFFFF; 
+    text-decoration: none; 
+}  
+.white_h5:hover {
+    color: #FFFFFF; 
+    border-bottom: .02em dotted 
+}
+
 .bold {
     font-weight: 900;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.left {
+    text-align: left;
 }
 
 img {
     max-width: 100%;
 }
 
-.rwd_break_560 {
+.rwd_break_640, .rwd_break_800 {
     display: none;
 }
+
 
 /* Curtain */
 
@@ -208,7 +259,7 @@ img {
 .marquee {
     max-width: 100%;
     width: 30%;
-    margin: 2% 45% 0 0%;
+    margin: 0 45% 0 0%;
 }
 
 .show:link, .show:visited, .show:active {
@@ -228,12 +279,6 @@ img {
 .buytickets_home {
     width: 20%;
     margin: 0 5% 0 58%;
-}
-
-@-moz-document url-prefix() {
-    h3 {
-        padding-bottom: 3%;
-    }
 }
 
 /* Home Page Sections */
@@ -338,44 +383,80 @@ img {
 
 /* Secondary Pages */
 
-.srt_page {
-    width: 40%;
-    margin: 2%;
+#about_page, #auditions_page, #partner_page {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.page_content {
+@-moz-document url-prefix() {
+    #partner_page {
+        margin-top: 5%;
+    }
+}
+
+.flex_grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex_grid .partner_content {
+  width: 50%;
+}
+
+.srt_page {
+    width: 40%;
+}
+
+.page_content, .partner_content {
     width: 50%;
-    margin-top: 5%;
+    margin: 5% 0;
     float: left;
 }
 
 .page_content img {
-    width: 90%;
-    padding: 0 5%;
+    width: 100%;
+    float: left;
 }
 
 img.buytickets_page {
     width: 60%;
-    margin: 2% 15%;
+    margin: 0 15%;
 }
 
-.page_content h2 {
+.page_content h2, .partner_content h5 {
     margin-right: 5%;
     color: #FAFAFA;
 }
 
-.page_content p {
-    margin-bottom:  4%;
-    padding: 0 5% 0 0;
+.page_content p, .partner_content p {
+    margin-bottom: 4%;
+    padding: 0 5%;
     text-align: right;
     color: #FAFAFA;
 }
 
+.page_content > .justify, .partner_content p {
+    text-align: justify;
+}
+
+.page_content > .left {
+    text-align: left;
+}
+
+.margin_top {
+    padding-top: 8.4%;
+}
+
 .page_content2 {
+    clear: both;
     width: 100%;
-    margin-top: 5%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
+}
+
+.page_content2 p {
+    text-align: right;
 }
 
 .page_content2 ul {
@@ -384,6 +465,32 @@ img.buytickets_page {
     font-family: 'Corbel';
     font-size: 1.2em;
     color: #FAFAFA;
+    text-align: justify;
+}
+
+.page_content2 {
+    margin-top: 2%;
+    color: #FAFAFA;
+}
+
+.full_width {
+    clear: both;
+    width: 95%;
+    margin: 0 2.5%;
+    color: #FAFAFA;
+}
+
+.full_width p {
+    color: #FAFAFA;
+    margin-bottom: 2%;
+}
+
+.full_width > p.justify {
+    text-align: justify;
+}
+
+.partner_content {
+    margin-bottom: -2%;
 }
 
 /* Footer */ 
@@ -415,19 +522,18 @@ img.buytickets_page {
 }
 
 #footer_menu {
-    width: 14%;
+    width: auto;
+    margin-right: 3%;
     float: right;
+    display: flex;
+    flex-direction: column;
     position: relative;
-    top: 51%;
-    transform: translateY(-49%);
+    top: 50%;
+    transform: translateY(-50%);
     text-shadow: 0 0.188em 0.250em #3A0000;
     text-align: center;
+    font-size: 1.5em;
 }
-
-#footer_menu li {
-    font-size: 1.6em;
-    list-style-type: none;
-} 
 
 #social {
     width: 25%;

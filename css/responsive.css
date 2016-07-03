@@ -116,9 +116,77 @@ body {
     font-size: 92%;
 } 
     
+#container2 {
+    width: 100%;
+    margin: 0 auto;
+} 
+    
+h4 {
+    padding: 0 0 4% 0;
+}
+    
 #map {
     padding-bottom: 40%;
+}
+    
+.rwd_break_800 {
+    display: inline;
+}
+    
+/* Secondary Pages */   
+    
+.srt_page {
+    width: 60%;
+}
+    
+.page_content, .partner_content {
+    width: 100%;
+    margin: 5% 0;
+    float: none;
+}
+
+.page_content img {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.page_content p, .partner_content p {
+    text-align: justify;
+}   
+    
+.page_content > .lt_800 {
+    text-align: left;
+}
+    
+.page_content > .c_800 {
+    text-align: center;
+}  
+    
+.margin_top {
+    padding-top: 0%;
 }    
+    
+.page_content2 {
+    clear: both;
+    width: 90%;
+    margin: 0 5%;
+    display: block;
+}    
+    
+.page_content2 ul {
+    width: 100%;
+    margin-bottom: 4%;
+    text-align: center;
+}    
+   
+.flex_grid {
+  display: block;
+}
+
+.flex_grid .partner_content {
+  width: 100%;
+}      
+    
 }
 
 /*** Up to 720px ***/
@@ -126,7 +194,11 @@ body {
  
 body {
     font-size: 90%;
-}          
+}  
+    
+h1 {
+    font-size: 3em;
+}    
 }
 
 /*** Up to 640px ***/
@@ -134,7 +206,59 @@ body {
     
 body {
     font-size: 89%;
-}      
+}  
+    
+.rwd_break_640 {
+    display: inline;
+}    
+    
+/* Footer */
+    
+#footer{
+    height: auto;
+}
+
+.logo {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+    
+#social, #footer_menu {
+    width: 90%;
+    margin: 0 5%;
+    padding: 2% 0;
+    float: none;
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+}  
+    
+#footer_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}  
+    
+.flex {
+    width: 33%;
+    padding-bottom: 2%;
+}
+
+.social_media {
+    width: 20%;
+    padding: 4% 6% 0 6%;
+}   
+
+#copyright {
+    padding: 2% 0;
+}
+
+#copyright li {
+    display: block;
+    width:  100%;
+    margin: 0 auto;
+}        
 }
 
 /*** Up to 560px ***/
@@ -144,31 +268,30 @@ body {
     font-size: 85%;
 }  
     
-h2 {
+h2, h5 {
     text-align: center;
-}  
-    
-.rwd_break_560 {
-    display: inline;
 }
     
+h3 {
+    font-size: 2em;
+}  
+    
+h4 {
+    width: 90%;
+    margin: 0 5%;
+    padding-bottom: 8%;
+}    
     
 /* Landing View */    
     
 .marquee {
-    width: 74%;
-    margin: 4% 14%;
+    width: 84%;
+    margin: 4% 8%;
 } 
-    
-.current_show {
-    width: 76%;
-    margin: 0 12%;
-    font-size: 2.6em;
-}
 
 .buytickets_home {
     width: 50%;
-    margin: 0 25%;
+    margin: 7% 25% 0 25%;
 }
     
 /* Find Us */    
@@ -201,49 +324,31 @@ h2 {
 
 #address_mobile p {
     text-align: center;
-} 
-    
-/* Footer */
-    
-#footer{
-    height: auto;
-}
-
-.logo {
-    width: 100%;
-    margin: 0 auto;
-    float: none;
-}
-    
-#footer_menu, #social {
-    width: 90%;
-    margin: 0 5%;
-    padding: 2% 0;
-    float: none;
-    position: relative;
-    top: 0;
-    transform: translateY(0);
 }     
+    
+/* Secondary Pages */
 
-.social_media {
-    width: 15%;
-}   
-
-#copyright {
+.srt_page {
+    width: 84%;
+    margin: 4% 8%;
+}     
+    
+.page_content img {
     width: 100%;
-    margin: 0 auto;
-    padding: 1% 0 .75% 0;
-    font-family: Corbel;
-    font-size: .9em;
-    color: #000000;
+    margin: 0;
+}        
+    
+.page_content ul, .page_content2 ul, .page_content > .rt_800 {
     text-align: center;
-    background-color: #EFE6D2;
 }
-
-#copyright li {
-    display: inline;
-    list-style-type: none;
-    padding: 0 2%;
+    
+.full_width p {
+    width: 95%;
+    margin: 0 2.5%;
+}
+    
+.full_width p, .page_content p, .page_content2 p {
+    margin-bottom: 5%;
 }    
      
 }
@@ -252,31 +357,49 @@ h2 {
 @media only screen and (max-width: 30em) {
     
 body {
-    font-size: 71%;
-}        
+    font-size: 85%
+} 
+   
 }
 
 /*** Up to 400px ***/
 @media only screen and (max-width: 25em) {
 
 body {
-    font-size: 66%;
-}   
+    font-size: 85%;
+}  
+    
 }
 
 /*** Up to 336px ***/
 @media only screen and (max-width: 21em) {
    
 body {
-    font-size: 66%;
+    font-size: 70%;
 }  
+ 
+h4 {
+    padding-top: 8%;
+}
+    
+p, h4.font_25 {
+    font-size: 1.4em;
+}
+    
+p.font_25 {
+    font-size: 1.55em;
+}
+    
+ul li {
+    font-size: 1.2em;
+}
 }
 
 /*** Up to 256px ***/
 @media only screen and (max-width: 16em) {
    
 body {
-    font-size: 50%;
+    font-size: 60%;
 }   
 }
 
