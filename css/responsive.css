@@ -77,7 +77,7 @@ body {
 @media only screen and (max-width: 70em) {
   
 body {
-    font-size: 80%;  
+    font-size: 90%;  
 }         
 }
 
@@ -85,24 +85,37 @@ body {
 @media only screen and (max-width: 65em) {
     
 body {
-     font-size: 78%;
-}    
+     font-size: 100%;
+}      
 }
 
 /*** Up to 976px ***/
 @media only screen and (max-width: 61em) {
   
 body {
-    font-size: 70%;
-}      
+    font-size: 89%;
+}
 }
 
 /*** Up to 880px 150% ***/
 @media only screen and (max-width: 55em) {
   
 body {
-   font-size: 62%;
-}   
+   font-size: 100%;
+    
+} 
+    
+/* Landing View */    
+    
+.marquee {
+    width: 60%;
+    margin: 0 20% 0 0;
+} 
+
+.buytickets_home {
+    width: 40%;
+    margin: 0 10% 0 45%;
+}          
 }
 
 
@@ -119,7 +132,11 @@ body {
 #container2 {
     width: 100%;
     margin: 0 auto;
-} 
+}  
+    
+h3 {
+    margin-top: -4%;
+}
     
 h4 {
     padding: 0 0 4% 0;
@@ -244,6 +261,11 @@ body {
     width: 33%;
     padding-bottom: 2%;
 }
+    
+.index_flex {
+    width: 50%;
+    padding-bottom: 2%;
+}
 
 .social_media {
     width: 20%;
@@ -273,7 +295,7 @@ h2, h5 {
 }
     
 h3 {
-    font-size: 2em;
+    margin-top: -5%;
 }  
     
 h4 {
@@ -285,13 +307,13 @@ h4 {
 /* Landing View */    
     
 .marquee {
-    width: 84%;
-    margin: 4% 8%;
+    width: 70%;
+    margin: 0 15%;
 } 
 
 .buytickets_home {
-    width: 50%;
-    margin: 7% 25% 0 25%;
+    width: 45%;
+    margin: 0 25% 0 25%;
 }
     
 /* Find Us */    
@@ -359,6 +381,10 @@ h4 {
 body {
     font-size: 90%
 } 
+  
+h3 {
+    font-size: 2.6em;
+}     
     
 p, h4.font_25 {
     font-size: 1.4em;
@@ -371,6 +397,13 @@ p.font_25 {
 ul li {
     font-size: 1.2em;
 }   
+    
+/* Landing View */    
+
+.buytickets_home {
+    width: 50%;
+    margin: 0 25% 0 25%;
+}        
    
 }
 
@@ -380,7 +413,7 @@ ul li {
 body {
     font-size: 85%;
 }  
-    
+     
 }
 
 /*** Up to 336px ***/
@@ -390,6 +423,10 @@ body {
     font-size: 74%;
 }  
  
+h3 {
+    font-size: 2.5em;
+}       
+    
 h4 {
     padding-top: 8%;
 }
