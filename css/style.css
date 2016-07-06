@@ -75,33 +75,11 @@ body {
     background-color: #EFE6D2;
 }
 
-#container2 {
-    background-color: #1A1A1A;
-}
-
 h1 {
-    font-size: 4em;
-    font-family: 'Codystar', cursive;
-    text-align: center;
-    color: #D0D0D0;
-    letter-spacing: .08em;
-    margin-top: -5%;
-}
-
-h2 {
-    font-size: 3.5em;
-    font-family: 'Great Vibes', cursive;
-    text-align: right;
-}
-
-h3 {
-    width: 80%;
-    margin: 0 10%;
-    padding: 0 0 2% 0;
-    font-family: 'Codystar', cursive;
     font-size: 3em;
-    color: #D0D0D0;
+    font-family: 'Codystar', cursive;
     text-align: center;
+    color: #FAFAFA;
     letter-spacing: .08em;
 }
 
@@ -126,6 +104,12 @@ h5 {
     text-align: right;
 }
 
+h6 {
+    font-size: 2.25em;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+
 p {
     font-family: Corbel;
     font-size: 1.2em;
@@ -148,10 +132,6 @@ p {
     font-family: 'Great Vibes', cursive;
 }
 
-.white {
-    color: #FAFAFA;
-}
-
 .black:link, .black:visited, .black:active {
     color: #000000; 
     text-decoration: none;
@@ -163,22 +143,12 @@ p {
 }  
 
 .white:link, .white:visited, .white:active {
-    color: #FFFFFF; 
+    color: #FAFAFA; 
     text-decoration: none; 
 }  
 .white:hover {
-    color: #FFFFFF; 
+    color: #FAFAFA; 
     border-bottom: .08em dotted 
-}
-
-.white_h5:link, .white_h5:visited, .white_h5:active {
-    color: #FFFFFF; 
-    text-decoration: none; 
-}  
-
-.white_h5:hover {
-    color: #FFFFFF; 
-    border-bottom: .02em dotted 
 }
 
 .bold {
@@ -189,16 +159,16 @@ p {
     font-style: italic;
 }
 
-.center {
-    text-align: center;
-}
-
 .justify {
     text-align: justify;
 }
 
 .left {
     text-align: left;
+}
+
+.right {
+    text-align: right;
 }
 
 img {
@@ -221,6 +191,16 @@ img {
     width: 100%;
     margin: 0 auto;
     height: 100vh;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 #curtain img {
@@ -250,31 +230,34 @@ img {
     height: 100%;
 }
 
-/* .rope {
-    position: absolute;
-    top: 0;
-    left: 90%;
-    z-index: 4;
-} */
-
 .marquee {
     max-width: 100%;
     width: 30%;
     margin: 0 45% 0 0%;
 }
 
+h3.page_index {
+    width: 80%;
+    margin: 0 10%;
+    padding: 0 0 2% 0;
+    font-family: 'Codystar', cursive;
+    font-size: 3em;
+    color: #FAFAFA;
+    letter-spacing: .08em;
+}
+
 .show:link, .show:visited, .show:active {
-    color: #C0C0C0; 
+    color: #FAFAFA; 
     text-decoration: none; 
 }  
 .show:hover {
-    color: #C0C0C0; 
+    color: #FAFAFA; 
     border-bottom: .08em dotted 
 }  
 
 .font_12 {
     font-size: 1.2em;
-    color: #C0C0C0;
+    color: #FAFAFA;
 }
 
 .buytickets_home {
@@ -284,62 +267,40 @@ img {
 
 /* Home Page Sections */
 
-.section {
-    max-width: 105em;
-    width: 100%;
-    overflow: hidden;
-}
-
 .image_top {
     width: 100%;
     margin: 0 auto;
     display: block;
 }
 
-#top p {
-    width: 90%;
-    margin: 0 5%;
-    padding: 2% 0;
-}
-
-#content_about, #content_aud, #content_vol {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#about h2, #auditions h2, #volunteer h2 {
-    margin-right: 5%;
-}
-
-.image_about, .image_aud, .image_vol {
-    width: 40%;
-}
-
-#auditions {
-    padding: 2% 0 5% 0;
-}
-
-#about, #volunteer {
+#volunteer, #find_us {
     background-color: #D7C18E;
     padding: 2% 0 5% 0;
 }
 
-#volunteer h2 {
+#auditions, #about {
+    padding: 2% 0 5% 0;
+}
+
+.image_aud, .image_vol, .image_about {
+    width: 40%;
+}
+
+#auditions h2, #volunteer h2, #about h2, #address h2 {
+    font-size: 3.5em;
+    font-family: 'Great Vibes', cursive;
+    text-align: right;
     margin-right: 5%;
 }
 
-#content_vol {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+#address h2 {
+    margin-right: 0;
 }
 
-#find_us {
+#content_aud, #content_vol, #content_about, #find_us {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 2em;
 }
 
 #map {
@@ -384,10 +345,29 @@ img {
 
 /* Secondary Pages */
 
-#about_page, #auditions_page, #partner_page {
-    max-width: 100%;
-    width: 100%;
-    margin: 0 auto;
+#header {
+    height: 15em;
+    background-color: #1A1A1A;
+    overflow: hidden;
+}
+
+.srt_page {
+    display: block;
+    float: left; 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h3.page_header {
+    font-size: 2.5em;
+    font-family: 'Codystar', cursive;
+    text-align: right;
+    color: #FAFAFA;
+    letter-spacing: .08em;
+    position: absolute;
+    top: 20%;
+    right: 12%;
 }
 
 @-moz-document url-prefix() {
@@ -405,94 +385,107 @@ img {
   width: 50%;
 }
 
-.srt_page {
-    width: 40%;
-}
-
-.page_content, .partner_content {
-    width: 50%;
-    margin: 5% 0;
-    float: left;
-}
-
-.page_content img {
+.content_light, .content_dark, .partner_content {
     width: 100%;
-    margin-top: 17%;
+    margin: 0 auto;
+}
+
+.content_dark {
+    background-color: #D7C18E;
+    padding: 1% 0 2% 0;
+}
+
+.content_dark img, .content_light img {
+    width: 30%;
+    margin: 0 2% 0 5%;
     float: left;
 }
 
-.page_content h2, .partner_content h5 {
-    margin-right: 5%;
-    color: #FAFAFA;
+.content_light .image_right {
+    width: 30%;
+    margin: 0 5% 0 2%;
+    float: right;
 }
 
-.page_content p, .partner_content p {
-    margin-bottom: 4%;
-    padding: 0 5%;
+.content_dark h2, .content_light h2, .partner_content h5 {
+    font-size: 3em;
+    font-family: 'Great Vibes', cursive;
     text-align: right;
-    color: #FAFAFA;
+    margin: 1% 5% 0 0;
 }
 
-.page_content > .justify, .partner_content p {
+.content_dark p, .content_light p, .partner_content p {
+    margin-bottom: 2%;
+    padding: 0 5%;
     text-align: justify;
 }
 
-.page_content > .left {
-    text-align: left;
-}
-
-.margin_top {
-    padding-top: 8.4%;
-}
-
-.page_content2 {
-    clear: both;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.page_content2 p {
-    text-align: right;
-}
-
-.page_content2 ul {
-    width: 33.3%;
+.content_light ul {
     list-style-type: none;
+    font-family: 'Corbel';
+    font-size: 1.2em;
+    margin: 0 5%;
+}
+
+
+.content_light_flex, .content_dark_flex {
+    clear: both;
+    width: 90%;
+    margin: 0 5%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content_light_flex p, .content_dark_flex p {
+    width: 33.3%;
+    text-align: left;
+    padding: 0 2%;
+}
+
+.content_dark_flex ul, .content_light_flex ul {
+    width: 33.3%;
+    padding-right:  2%;
+    list-style-type: none;
+    font-family: 'Corbel';
+    font-size: 1.2em;
+    
+}
+
+.content_light > .center, .content_dark > .center {
+    text-align: center;
+}
+
+.image_actor {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.page_flex div p {
     font-family: 'Corbel';
     font-size: 1.2em;
     color: #FAFAFA;
     text-align: justify;
+    margin: 2%;
 }
 
-.page_content2 ul li {
-    width: 95%;
-    padding-left: 5%;
-}
-
-.page_content2 {
-    margin-top: 2%;
-    color: #FAFAFA;
-}
-
-.full_width {
-    clear: both;
-    width: 95%;
-    margin: 0 2.5%;
-    color: #FAFAFA;
-}
-
-.full_width p {
-    color: #FAFAFA;
-    margin-bottom: 2%;
-}
-
-.full_width > p.justify {
-    text-align: justify;
+.content_dark_flex div {
+    width: 33.3%;
+    padding: 2% 0 0 0;
 }
 
 .partner_content {
     margin-bottom: -2%;
+}
+
+.image_show {
+    width: 60%;
+    margin: 4% 20%;
+}
+
+.image_buytix {
+    width: 26%;
+    margin: 4% 37%;
 }
 
 /* Footer */ 
@@ -500,7 +493,7 @@ img {
 #push {
     max-width: 105em;
     width: 100%;
-    height: 2em;
+    height: 0;
     margin: 0 auto;
 }
     
@@ -511,7 +504,7 @@ img {
     margin: 0 auto;
     overflow: hidden;
     font-family: Corbel;
-    color: #FFFFFF;
+    color: #FAFAFA;
     background-color: #A60A09;
 }
 
@@ -560,14 +553,20 @@ img {
 }
 
 #copyright {
+    height: 2em;
     width: 100%;
     margin: 0 auto;
-    padding: 1% 0 .75% 0;
     font-family: Corbel;
     font-size: .9em;
-    color: #000000;
+    color: #FAFAFA;
     text-align: center;
-    background-color: #EFE6D2;
+    background-color: #000000;
+}
+
+#copyright ul {
+    position: relative;
+    top: 52%;
+    transform: translateY(-48%);
 }
 
 #copyright li {
