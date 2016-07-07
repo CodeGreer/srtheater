@@ -64,7 +64,7 @@ body {
     margin: 0 auto;
     font-size: 100%;
     line-height: 1.625; /* 26px */
-    background-color: #000000;
+    background-color: #1A1A1A;
 }
 
 #container, #container2 {
@@ -96,12 +96,6 @@ h4 {
     font-size: 1.2em;
     color: #FAFAFA;
     text-align: center;
-}
- 
-h5 {
-    font-size: 2.5em;
-    font-family: 'Great Vibes', cursive;
-    text-align: right;
 }
 
 h6 {
@@ -167,10 +161,6 @@ p {
     text-align: left;
 }
 
-.right {
-    text-align: right;
-}
-
 img {
     max-width: 100%;
 }
@@ -185,7 +175,7 @@ img {
 #curtain {
     text-align: center;
     background-image: url(../images/blackcurtain.jpg);
-    background-color: #000000;
+    background-color: #1A1A1A;
     background-size: 100% 100%;
     overflow: hidden;
     width: 100%;
@@ -345,6 +335,24 @@ h3.page_index {
 
 /* Secondary Pages */
 
+#page_curtains > .leftcurtain {
+    width: 10%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 2;
+}
+
+ #page_curtains > .rightcurtain {
+    width: 10%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 3;
+}
+
 #header {
     height: 15em;
     background-color: #1A1A1A;
@@ -370,35 +378,25 @@ h3.page_header {
     right: 12%;
 }
 
-@-moz-document url-prefix() {
-    #partner_page {
-        margin-top: 5%;
-    }
-}
-
-.flex_grid {
-  display: flex;
-  justify-content: space-between;
-}
-
-.flex_grid .partner_content {
-  width: 50%;
-}
-
 .content_light, .content_dark, .partner_content {
     width: 100%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .content_dark {
     background-color: #D7C18E;
-    padding: 1% 0 2% 0;
+    padding: 0;
 }
 
-.content_dark img, .content_light img {
+.content_dark > img, .content_light > img {
     width: 30%;
     margin: 0 2% 0 5%;
     float: left;
+}
+
+.content_light .image_pad {
+    padding-bottom: 3%;
 }
 
 .content_light .image_right {
@@ -407,17 +405,21 @@ h3.page_header {
     float: right;
 }
 
-.content_dark h2, .content_light h2, .partner_content h5 {
+.content_dark h2, .content_light h2 {
     font-size: 3em;
     font-family: 'Great Vibes', cursive;
     text-align: right;
     margin: 1% 5% 0 0;
 }
 
-.content_dark p, .content_light p, .partner_content p {
+.content_dark > p, .content_light > p, .partner_content > p {
     margin-bottom: 2%;
     padding: 0 5%;
     text-align: justify;
+}
+
+.content_dark .right, .content_light .right {
+    text-align: right;
 }
 
 .content_light ul {
@@ -426,7 +428,6 @@ h3.page_header {
     font-size: 1.2em;
     margin: 0 5%;
 }
-
 
 .content_light_flex, .content_dark_flex {
     clear: both;
@@ -449,33 +450,10 @@ h3.page_header {
     list-style-type: none;
     font-family: 'Corbel';
     font-size: 1.2em;
-    
 }
 
 .content_light > .center, .content_dark > .center {
     text-align: center;
-}
-
-.image_actor {
-    width: 90%;
-    margin: 0 5%;
-}
-
-.page_flex div p {
-    font-family: 'Corbel';
-    font-size: 1.2em;
-    color: #FAFAFA;
-    text-align: justify;
-    margin: 2%;
-}
-
-.content_dark_flex div {
-    width: 33.3%;
-    padding: 2% 0 0 0;
-}
-
-.partner_content {
-    margin-bottom: -2%;
 }
 
 .image_show {
@@ -483,9 +461,46 @@ h3.page_header {
     margin: 4% 20%;
 }
 
-.image_buytix {
-    width: 26%;
-    margin: 4% 37%;
+.show_tickets {
+    margin-left: 5%;
+    font-size: 3em;
+    font-family: 'Great Vibes', cursive;
+}
+
+.show_flex {
+    width: 90%;
+    margin: 0 5%;
+    padding: 0 0 2% 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.show_flex div {
+    width: 33.3%;
+    padding: 0 2%;
+    text-align: justify;
+}
+
+.show_flex div h6, .show_flex div img, .show_flex div p {
+    width: 100%;
+}
+
+.partner_grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.partner_grid .partner_content {
+    width: 50%;
+    padding: 2% 0;
+}
+
+.partner_content h5 {
+    font-size: 2.5em;
+    font-family: 'Great Vibes', cursive;
+    text-align: right;
+    margin-right: 5%;
 }
 
 /* Footer */ 
@@ -553,14 +568,14 @@ h3.page_header {
 }
 
 #copyright {
-    height: 2em;
+    height: 3em;
     width: 100%;
     margin: 0 auto;
     font-family: Corbel;
     font-size: .9em;
     color: #FAFAFA;
     text-align: center;
-    background-color: #000000;
+    background-color: #1A1A1A;
 }
 
 #copyright ul {
