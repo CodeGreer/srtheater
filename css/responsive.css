@@ -85,7 +85,7 @@ body {
 @media only screen and (max-width: 65em) {
     
 body {
-     font-size: 100%;
+     font-size: 89%;
 }      
 }
 
@@ -95,26 +95,51 @@ body {
 body {
     font-size: 89%;
 }
+    
+.rwd_break_976 {
+    display: inline;
+}
+    
+.content_dark > img, .content_light > img, .content_light .image_right {
+    width: 40%;
+}  
+    
+.content_light_flex p, .content_dark_flex p, .content_dark_flex ul, .content_light_flex ul {
+    flex-basis: 33%;
+    padding-bottom: 2%;
+}     
+    
+.logo {
+    width: 30%;
+}   
+    
+#footer_menu {
+    width: 68%;
+} 
+    
+.social_media {
+    width: 12%;
+}    
 }
 
 /*** Up to 880px 150% ***/
 @media only screen and (max-width: 55em) {
   
 body {
-   font-size: 100%;
+   font-size: 98%;
     
 } 
     
 /* Landing View */    
     
 .marquee {
-    width: 60%;
-    margin: 0 20% 0 0;
+    width: 40%;
+    margin: 0 40% 0 0;
 } 
 
 .buytickets_home {
-    width: 40%;
-    margin: 0 10% 0 45%;
+    width: 30%;
+    margin: 0 0 0 45%;
 }          
 }
 
@@ -126,21 +151,50 @@ body {
 @media only screen and (max-width: 50em) {
  
 body {
-    font-size: 92%;
+    font-size: 88%;
 } 
+    
+/* Landing View */    
+    
+.marquee {
+    width: 45%;
+    margin: 0 35% 0 0;
+} 
+
+.buytickets_home {
+    width: 30%;
+    margin: 0 0 0 45%;
+}          
+    
+#page_curtains > .leftcurtain, #page_curtains > .rightcurtain {
+   display: none;
+}
     
 #container2 {
     width: 100%;
     margin: 0 auto;
 }  
     
-h3 {
-    margin-top: -4%;
+#header {
+    height: 15em;
+    background-color: #1A1A1A;
+    overflow: hidden;
 }
+
+.srt_page {
+    display: none;
+} 
     
-h4 {
-    padding: 0 0 4% 0;
+.srt_mobile {
+    display: block;
+    width: 37%;
+    margin-left: 3%;
 }
+
+h3.page_header {
+    font-size: 3em;
+    right: 5%;
+}    
     
 #map {
     padding-bottom: 40%;
@@ -151,58 +205,11 @@ h4 {
 }
     
 /* Secondary Pages */   
-    
-.srt_page {
-    width: 60%;
-}
-    
-.page_content, .partner_content {
-    width: 100%;
-    margin: 5% 0;
-    float: none;
-}
 
-.page_content img {
-    width: 60%;
-    margin: 0 20%;
-}
-
-.page_content p, .partner_content p {
-    text-align: justify;
-}   
-    
-.page_content > .lt_800 {
-    text-align: left;
-}
-    
-.page_content > .c_800 {
-    text-align: center;
+.content_dark h2, .content_light h2 {
+    margin: 3% 5% 3% 0;
 }  
-    
-.margin_top {
-    padding-top: 0%;
-}    
-    
-.page_flex {
-    clear: both;
-    width: 90%;
-    margin: 0 5%;
-    display: block;
-}    
-    
-.page_flex ul {
-    width: 100%;
-    margin-bottom: 4%;
-    text-align: center;
-}    
-   
-.flex_grid {
-  display: block;
-}
-
-.flex_grid .partner_content {
-  width: 100%;
-}      
+ 
     
 }
 
@@ -213,9 +220,9 @@ body {
     font-size: 90%;
 }  
     
-h1 {
-    font-size: 3em;
-}    
+.social_media {
+    width: 15%;
+} 
 }
 
 /*** Up to 640px ***/
@@ -227,60 +234,16 @@ body {
     
 .rwd_break_640 {
     display: inline;
-}    
-    
-/* Footer */
-    
-#footer{
-    height: auto;
-}
-
-.logo {
-    width: 100%;
-    margin: 0 auto;
-    float: none;
-}
-    
-#social, #footer_menu {
-    width: 90%;
-    margin: 0 5%;
-    padding: 2% 0;
-    float: none;
-    position: relative;
-    top: 0;
-    transform: translateY(0);
 }  
     
-#footer_menu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}  
-    
-.flex {
-    width: 33%;
-    padding-bottom: 2%;
+.rwd_break_976 {
+    display: none;
 }
     
-.index_flex {
-    width: 50%;
-    padding-bottom: 2%;
+.partner_grid .partner_content {
+    flex-basis: 100%;
 }
 
-.social_media {
-    width: 20%;
-    padding: 4% 6% 0 6%;
-}   
-
-#copyright {
-    padding: 2% 0;
-}
-
-#copyright li {
-    display: block;
-    width:  100%;
-    margin: 0 auto;
-}        
 }
 
 /*** Up to 560px ***/
