@@ -138,7 +138,7 @@ p {
     font-style: italic;
 }
 
-.rwd_break_640, .rwd_break_800, .rwd_break_976 {
+.rwd_break_480, .rwd_break_640, .rwd_break_800, .rwd_break_976 {
     display: none;
 }
 
@@ -199,7 +199,7 @@ p {
     margin: 0 45% 0 0%;
 }
 
-h3.page_index {
+.h3_index {
     width: 80%;
     margin: 0 10%;
     padding: 0 0 2% 0;
@@ -349,10 +349,15 @@ h3.page_header {
     padding: 0;
 }
 
+.content_dark h2, .content_light h2 {
+    text-align: right;
+    margin: 1% 5% 1% 0;
+}
+
 .content_dark > img, .content_light > img {
     width: 30%;
-    margin: 0 2% 0 5%;
-    float: left;
+    margin: 0 5% 0 2%;
+    float: right;
 }
 
 .content_light .image_pad {
@@ -365,14 +370,8 @@ h3.page_header {
     float: right;
 }
 
-.content_dark h2, .content_light h2 {
-    text-align: right;
-    margin: 1% 5% 1% 0;
-}
-
 .content_dark > p, .content_light > p, .partner_content > p {
-    margin-bottom: 2%;
-    padding: 0 5%;
+    margin: 0 5% 2% 5%;
 }
 
 .content_light ul {
@@ -393,7 +392,6 @@ h3.page_header {
 
 .content_light_flex p, .content_dark_flex p {
     text-align: left;
-    padding: 0 2%;
     flex: 1;
 }
 
@@ -402,7 +400,6 @@ h3.page_header {
     font-family: 'Corbel';
     font-size: 1.2em;
     flex: 1;
-    padding: 0 2%;
 }
 
 .content_light > .center, .content_dark > .center {
@@ -415,24 +412,22 @@ h3.page_header {
 }
 
 .show_tickets {
-    text-align: center;
-    margin-left: 5%;
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: 'Great Vibes', cursive;
 }
 
 .home_flex, .show_flex {
-    width: 90%;
-    margin: 0 5%;
+    position: relative;
+    width: 94%;
+    margin: 0 3%;
     padding: 0 0 2% 0;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
 }
 
 .home_flex div, .show_flex div {
-    flex: 1;
+    flex: 0 1 29%;
     padding: 0 2%;
-    text-align: left;
 }
 
 .home_flex div img, .home_flex div p, .show_flex div h4, .show_flex div img, .show_flex div p {
@@ -511,24 +506,6 @@ h3.page_header {
     text-align: center;
     font-size: 1.5em;
     margin: 0 3%;
-}
-
-#social {
-    width: 74%;
-    float: left;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-#social li {
-    display: inline;
-    list-style-type: none;
-}
-
-#social li a {
-    border-bottom: 0;
 }
 
 .social_media {
