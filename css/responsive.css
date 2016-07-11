@@ -83,7 +83,9 @@ body {
 .content_dark_flex ul, .content_light_flex ul {
     flex-basis: 50%;
     padding-bottom: 2%;
-}        
+} 
+    
+   
 }
 
 /*** Up to 1040px 125% ***/
@@ -91,7 +93,8 @@ body {
     
 body {
      font-size: 89%;
-}      
+}  
+
 }
 
 /*** Up to 976px ***/
@@ -112,19 +115,7 @@ body {
 .content_light_flex p, .content_dark_flex p {
     flex-basis: 50%;
     padding-bottom: 2%;
-}          
-    
-.logo {
-    width: 30%;
-}   
-    
-#footer_menu {
-    width: 68%;
-} 
-    
-.social_media {
-    width: 12%;
-}    
+}            
 }
 
 /*** Up to 880px 150% ***/
@@ -132,7 +123,6 @@ body {
   
 body {
    font-size: 98%;
-    
 } 
     
 /* Landing View */    
@@ -145,9 +135,24 @@ body {
 .buytickets_home {
     width: 30%;
     margin: 0 0 0 45%;
-}          
+} 
+    
+/* Footer */
+    
+.logo {
+    width: 20%;
+}
+    
+#footer_menu  a {
+    font-size: 1.25em;
+    margin: 0 1%;
 }
 
+.social_media {
+    width: 8%;
+}    
+    
+}
 
 /************ Change Format ************/
 
@@ -208,7 +213,23 @@ h3.page_header {
 .content_dark h2, .content_light h2 {
     margin: 3% 5% 3% 0;
 }               
+
+/* Footer */
+    
+.logo {
+    width: 28%;
 }
+    
+#footer_menu  a {
+    font-size: 1.5em;
+    margin: 0 1%;
+}
+
+.social_media {
+    width: 7%;
+}        
+}
+
 
 /*** Up to 720px ***/
 @media only screen and (max-width: 45em) {
@@ -219,11 +240,21 @@ body {
     
 .home_flex div, .show_flex div {
     flex-basis: 46%;
-}     
-    
-.social_media {
-    width: 15%;
+    padding-bottom: 4%;
+    margin: 0 auto;
 } 
+    
+/* Footer */
+    
+#footer_menu  a {
+    font-size: 1.3em;
+    margin: 0 1%;
+}
+
+.social_media {
+    width: 8%;
+}          
+ 
 }
 
 /*** Up to 640px ***/
@@ -239,7 +270,77 @@ body {
     
 .rwd_break_976 {
     display: none;
-}      
+} 
+    
+/* Find Us */    
+    
+#find_us {
+    display: block;
+    padding-top: 1em;
+}
+    
+#address {
+    display: none;
+}
+    
+#address_mobile {
+    display: block;
+    max-width: 100%;
+    width: 90%;
+    margin: 0 5%;
+    padding: 0 0 4% 0;
+    float: none;
+}
+    
+#address_mobile h2 {
+    text-align: center;
+}
+
+#address_mobile p {
+    text-align: center;
+}             
+
+#map {
+    width: 80%;
+    margin: 0 10% 4% 10%;
+    float: none;
+    position: relative;
+    padding-bottom: 70%;
+}
+    
+/* Footer */ 
+    
+#footer {
+    height: auto;
+}
+
+.logo {
+    float: none; 
+    width: 80%;
+    margin: 5% 10%;
+    top: 0;
+    transform: translateY(-0%);
+}
+
+#footer_menu {
+    width: 100%;
+    margin: 5% 0 10% 0;
+    float: none;
+    top: 0;
+    transform: translateY(-0%);
+}
+    
+#footer_menu a {
+    font-size: 1.5em;
+}
+
+.social_media {
+    width: 12%;
+}
+    
+#copyright {
+    height: 5em;
+}       
     
 }
 
@@ -262,6 +363,10 @@ h4 {
     width: 90%;
     margin: 0 5%;
     padding-bottom: 8%;
+} 
+    
+div ul li {
+    font-size: 1.2em;
 }    
     
 /* Landing View */    
@@ -278,39 +383,13 @@ h4 {
     
 .home_flex div, .show_flex div {
     flex-basis: 100%;
-    padding-bottom: 4%;
 } 
     
-/* Find Us */    
+/* Find Us */
     
-#find_us {
-    display: block;
-    padding-top: 1em;
-}
-
 #map {
     width: 90%;
     margin: 0 5% 4% 5%;
-    float: none;
-    position: relative;
-    padding-bottom: 70%;
-}
-
-#address {
-    display: none;
-}
-    
-#address_mobile {
-    display: block;
-    max-width: 100%;
-    width: 90%;
-    margin: 0 5%;
-    padding: 0 0 4% 0;
-    float: none;
-}
-
-#address_mobile p {
-    text-align: center;
 }     
     
 /* Secondary Pages */
@@ -326,11 +405,15 @@ h4 {
 
 h3.page_header {
     position: relative;
-}  
+    top: 0;
+    right: 0;
+    font-size: 2.5em;
+    text-align: center;
+}    
     
 .content_dark h2, .content_light h2 {
     text-align: center;
-    margin: 4% 0 2% 0;
+    margin: 6% 0 2% 0;
 }
 
 .content_dark > img, .content_light > img {
@@ -356,39 +439,27 @@ h3.page_header {
 .content_light_flex p, .content_dark_flex p, .content_dark_flex ul, .content_light_flex ul {
     flex-basis: 100%;
     padding-bottom: 4%;
-}     
+}  
+    
+.partner_grid .partner_content {
+    flex-basis: 100%;
+} 
+    
+.partner_content h5 {
+    text-align: center;
+    margin: 4% 0 0 0;
+}    
   
+/* Footer */
     
-/* Footer */ 
-    
-#footer {
-    height: auto;
-}
-
 .logo {
-    float: none; 
     width: 90%;
     margin: 5%;
-    top: 0;
-    transform: translateY(-0%);
-}
-
-#footer_menu {
-    width: 100%;
-    margin: 5% 0 10% 0;
-    float: none;
-    top: 0;
-    transform: translateY(-0%);
-}
-
-.social_media {
-    width: 15%;
-}
-    
-#copyright {
-    height: 5em;
+} 
+  
+#copyright ul {
+    font-size: .8em;
 }    
-     
 }
 
 /*** Up to 480px ***/
@@ -424,7 +495,7 @@ p.font_25 {
 .buytickets_home {
     width: 50%;
     margin: 0 25% 0 25%;
-}        
+}    
    
 }
 
@@ -433,19 +504,18 @@ p.font_25 {
 
 body {
     font-size: 85%;
-} 
-    
+}  
     
 .social_media {
-    width: 20%;
-}     
+    width: 15%;
+}  
 }
 
 /*** Up to 336px ***/
 @media only screen and (max-width: 21em) {
    
 body {
-    font-size: 74%;
+    font-size: 80%;
 }  
  
 h3 {
@@ -455,6 +525,13 @@ h3 {
 h4 {
     padding-top: 8%;
 }
+    
+/* Landing View */    
+
+.h3_index {
+    padding: 0 0 10% 0;
+    font-size: 2.2em;
+}     
 }
 
 /*** Up to 256px ***/

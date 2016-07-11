@@ -99,7 +99,7 @@ img {
     max-width: 100%;
 }
 
-p {
+p, ul {
     font-size: 1.2em;
 }
 
@@ -333,9 +333,9 @@ h3.page_header {
     text-align: right;
     color: #FAFAFA;
     letter-spacing: .08em;
-    position: absolute;
-    top: 20%;
-    right: 12%;
+    position: relative;
+    top: 55%;
+    margin-right: 5%;
 }
 
 .content_light, .content_dark, .partner_content {
@@ -377,7 +377,7 @@ h3.page_header {
 .content_light ul {
     list-style-type: none;
     font-family: 'Corbel';
-    font-size: 1.2em;
+   
     margin: 0 5%;
 }
 
@@ -391,6 +391,7 @@ h3.page_header {
 }
 
 .content_light_flex p, .content_dark_flex p {
+    
     text-align: left;
     flex: 1;
 }
@@ -398,7 +399,7 @@ h3.page_header {
 .content_dark_flex ul, .content_light_flex ul {
     list-style-type: none;
     font-family: 'Corbel';
-    font-size: 1.2em;
+   
     flex: 1;
 }
 
@@ -472,7 +473,7 @@ h3.page_header {
     margin: 0 auto;
 }
     
-#footer{
+#footer {
     max-width: 105em;
     width: 100%;
     height: 15em;
@@ -485,7 +486,7 @@ h3.page_header {
 .logo {
     display: block;
     float: left; 
-    width: 20%;
+    width: 24%;
     margin-left: 2%;
     position: relative;
     top: 50%;
@@ -493,8 +494,7 @@ h3.page_header {
 }
 
 #footer_menu {
-    width: 78%;
-    float: left;
+    width: 100%;
     text-align: center;
     position: relative;
     top: 50%;
@@ -505,24 +505,24 @@ h3.page_header {
     text-shadow: 0 0.188em 0.250em #3A0000;
     text-align: center;
     font-size: 1.5em;
-    margin: 0 3%;
+    margin: 0 1%;
 }
 
 .social_media {
-    width: 8%;
+    width: 6%;
 }
 
 #copyright {
     height: 3em;
     width: 100%;
     margin: 0 auto;
-    font-size: .9em;
-    color: #FAFAFA;
-    text-align: center;
     background-color: #1A1A1A;
 }
 
 #copyright ul {
+    font-size: .9em;
+    color: #FAFAFA;
+    text-align: center;
     position: relative;
     top: 52%;
     transform: translateY(-48%);
