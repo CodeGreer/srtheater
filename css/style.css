@@ -393,15 +393,7 @@ h3.page_header {
 }
 
 .content_light_flex p, .content_dark_flex p {
-    text-align: left;
-    flex: 1 0 30%;
-}
-
-.content_dark_flex ul, .content_light_flex ul {
-    list-style-type: none;
-    font-family: 'Corbel';
-    flex: 1;
-    font-size: 1.2em;
+    flex: 1 0 33%;
 }
 
 .content_light > .center, .content_dark > .center {

@@ -79,11 +79,7 @@ body {
 body {
     font-size: 90%;  
 } 
-    
-.content_dark_flex ul, .content_light_flex ul {
-    flex-basis: 50%;
-    padding-bottom: 2%;
-}  
+ 
 }
 
 /*** Up to 1040px 125% ***/
@@ -112,8 +108,7 @@ body {
 .content_light_flex p, .content_dark_flex p {
     flex: 0 0 50%;
     padding-bottom: 5%;
-}    
-
+}        
 }
 
 /*** Up to 880px 150% ***/
@@ -406,7 +401,7 @@ h3.page_header {
     margin-bottom: 4%;
 }   
     
-.content_light_flex p, .content_dark_flex p, .content_dark_flex ul, .content_light_flex ul {
+.content_light_flex p, .content_dark_flex p {
     flex-basis: 100%;
     padding-bottom: 4%;
 }  
