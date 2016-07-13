@@ -79,7 +79,6 @@ body {
 body {
     font-size: 90%;  
 } 
- 
 }
 
 /*** Up to 1040px 125% ***/
@@ -88,6 +87,24 @@ body {
 body {
      font-size: 89%;
 }  
+    
+/* Landing View */    
+    
+.marquee {
+    width: 36%;
+    margin: 0 40% 0 0;
+} 
+
+.h3_index {
+    width: 90%;
+    margin:  0 5%;
+    font-size: 2.5em;
+}    
+    
+.buytickets_home {
+    width: 26%;
+    margin: 0 0 0 45%;
+}     
 }
 
 /*** Up to 976px ***/
@@ -101,7 +118,7 @@ body {
     display: inline;
 }
     
-.content_dark > img, .content_light > img, .content_light .image_right {
+figure img {
     width: 40%;
 }  
     
@@ -121,18 +138,24 @@ body {
 /* Landing View */    
     
 .marquee {
-    width: 36%;
+    width: 30%;
     margin: 0 40% 0 0;
 } 
 
+.h3_index {
+    width: 90%;
+    margin: -5% 5% 0 5%;
+    font-size: 1.9em;
+}    
+    
 .buytickets_home {
-    width: 26%;
+    width: 20%;
     margin: 0 0 0 45%;
 } 
     
 /* Footer */    
 
-#footer_menu  a {
+#menu  a {
     font-size: 1.3em;
 }    
 
@@ -150,30 +173,13 @@ body {
  
 body {
     font-size: 88%;
-} 
-    
-/* Landing View */    
-    
-.marquee {
-    width: 45%;
-    margin: 0 35% 0 0;
-} 
-
-.buytickets_home {
-    width: 30%;
-    margin: 0 0 0 45%;
-}          
+}    
     
 #page_curtains > .leftcurtain, #page_curtains > .rightcurtain {
    display: none;
-}
-    
-#container2 {
-    width: 100%;
-    margin: 0 auto;
-}  
+} 
 
-.srt_page {
+.srt {
     display: none;
 } 
     
@@ -188,7 +194,7 @@ h3.page_header {
     width: 50%;
     font-size: 3em;
     float: right;
-    margin-top: 0%;
+    margin-top: 0;
 }       
     
 #map {
@@ -200,6 +206,11 @@ h3.page_header {
 }
     
 /* Secondary Pages */   
+    
+main {
+    width: 100%;
+    margin: 0 auto;
+}     
 
 .content_dark h2, .content_light h2 {
     margin: 3% 5% 3% 0;
@@ -207,7 +218,7 @@ h3.page_header {
 
 /* Footer */
     
-#footer_menu {
+#menu {
     width: 70%;
     height: auto;  
 } 
@@ -216,17 +227,27 @@ h3.page_header {
     width: 28%;
 }
     
-#footer_menu nav {
+#menu nav {
     margin: 5% 0;
 }    
     
-#footer_menu a {
+#menu a {
     font-size: 1.3em;
     margin: 0 2%;
+} 
+    
+/* Footer */ 
+    
+footer {
+    width: 100%;
+    margin: 0 auto;
 }
-       
+    
+.copyright {
+    width: 100%;
+    margin: 0 auto;
+}          
 }
-
 
 /*** Up to 720px ***/
 @media only screen and (max-width: 45em) {
@@ -247,11 +268,11 @@ body {
  
 /* Footer */
     
-#footer_menu nav {
+#menu nav {
     margin: 5% 0;
 }    
     
-#footer_menu a {
+#menu a {
     font-size: 1.3em;
     margin: 0 2%;
 } 
@@ -306,12 +327,7 @@ body {
     float: none;
     position: relative;
     padding-bottom: 70%;
-}
-        
-#copyright {
-    height: 5em;
-}       
-    
+}  
 }
 
 /*** Up to 560px ***/
@@ -358,7 +374,7 @@ div ul li {
     
 /* Secondary Pages */
     
-#header {
+header {
     height: auto;
 }
     
@@ -381,7 +397,7 @@ h3.page_header {
     margin: 6% 0 2% 0;
 }
 
-.content_dark > img, .content_light > img {
+figure img {
     width: 90%;
     margin: 0 5% 4% 5%;
     float: none;
@@ -417,7 +433,7 @@ h3.page_header {
   
 /* Footer */
     
-#footer {
+footer {
     height: auto;
 }
     
@@ -429,19 +445,19 @@ h3.page_header {
     transform: translateY(0%);
 }    
     
-#footer_menu {
-    width: 90%;
-    margin: 0 5%;
+#menu {
+    width: 100%;
+    margin: 0 auto;
     float: none;
     top: 0;
     transform: translateY(0%);
 } 
     
-#footer_menu nav {
+#menu nav {
     margin: 5% 0;
 }    
     
-#footer_menu a {
+#menu a {
     font-size: 1.6em;
     margin: 0 4%;
 }
@@ -450,8 +466,12 @@ h3.page_header {
     width: 15%;
 }
     
-#copyright ul {
-    font-size: .8em;
+.copyright {
+    height: 5em;
+}    
+    
+.copyright ul {
+    font-size: .9em;
 }    
 }
 
@@ -488,8 +508,7 @@ p.font_25 {
 .buytickets_home {
     width: 50%;
     margin: 0 25% 0 25%;
-}    
-   
+}      
 }
 
 /*** Up to 400px ***/
@@ -498,8 +517,13 @@ p.font_25 {
 body {
     font-size: 85%;
 }  
+    
+/* Footer */    
 
-
+#menu a {
+    font-size: 1.4em;
+    margin: 0 3%;
+}  
 }
 
 /*** Up to 336px ***/
@@ -525,10 +549,8 @@ h4 {
 
 .h3_index {
     padding: 0 0 10% 0;
-    font-size: 2.2em;
+    font-size: 2em;
 } 
-    
-
 }
 
 /*** Up to 256px ***/
@@ -545,10 +567,4 @@ body {
 body {
     font-size: 50%;
 }    
-    
-/* Top*/
-
-#top {
-    height: 12em;
-}   
 }

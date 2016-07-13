@@ -68,7 +68,7 @@ body {
     background-color: #1A1A1A;
 }
 
-#container, #container2 {
+.index {
     max-width: 105em;
     width: 80%;
     margin: 0 10%;
@@ -310,13 +310,16 @@ p, ul {
     z-index: 3;
 }
 
-#header {
+header {
+    max-width: 105em;
+    width: 80%;
+    margin: 0 10%;
+    overflow: hidden;
     height: 15em;
     background-color: #1A1A1A;
-    overflow: hidden;
 }
 
-.srt_page {
+.srt {
     display: block;
     float: left; 
     height: 100%;
@@ -339,6 +342,14 @@ h3.page_header {
     margin-right: 5%;
 }
 
+main {
+    max-width: 105em;
+    width: 80%;
+    margin: 0 10%;
+    overflow: hidden;
+    background-color: #EFE6D2;
+}
+
 .content_light, .content_dark, .partner_content {
     width: 100%;
     margin: 0 auto;
@@ -355,20 +366,14 @@ h3.page_header {
     margin: 1% 5% 1% 0;
 }
 
-.content_dark > img, .content_light > img {
+figure img {
     width: 30%;
     margin: 0 5% 0 2%;
     float: right;
 }
 
-.content_light .image_pad {
+.image_pad {
     padding-bottom: 3%;
-}
-
-.content_light .image_right {
-    width: 30%;
-    margin: 0 5% 0 2%;
-    float: right;
 }
 
 .content_dark > p, .content_light > p, .partner_content > p {
@@ -398,11 +403,6 @@ h3.page_header {
 
 .content_light > .center, .content_dark > .center {
     text-align: center;
-}
-
-.image_show {
-    width: 60%;
-    margin: 4% 20%;
 }
 
 .show_tickets {
@@ -466,11 +466,11 @@ h3.page_header {
     margin: 0 auto;
 }
     
-#footer {
+footer {
     max-width: 105em;
-    width: 100%;
+    width: 80%;
     height: 18em;
-    margin: 0 auto;
+    margin: 0 10%;
     overflow: hidden;
     color: #FAFAFA;
     background-color: #A60A09;
@@ -486,7 +486,7 @@ h3.page_header {
     transform: translateY(-50%);
 }
 
-#footer_menu {
+#menu {
     float: left;
     width: 74%;
     padding: 2% 0;
@@ -496,11 +496,11 @@ h3.page_header {
     transform: translateY(-50%);
 }
 
-#footer_menu nav {
-    margin: 2.5% 0;
+#menu nav {
+    margin: 4% 0;
 }
 
-#footer_menu  a {
+#menu  a {
     text-shadow: 0 0.188em 0.250em #3A0000;
     text-align: center;
     font-size: 1.5em;
@@ -511,14 +511,14 @@ h3.page_header {
     width: 8%;
 }
 
-#copyright {
+.copyright {
     height: 3em;
-    width: 100%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 0 10%;
     background-color: #1A1A1A;
 }
 
-#copyright ul {
+.copyright ul {
     font-size: .9em;
     color: #FAFAFA;
     text-align: center;
@@ -527,7 +527,7 @@ h3.page_header {
     transform: translateY(-48%);
 }
 
-#copyright li {
+.copyright li {
     display: inline;
     list-style-type: none;
     padding: 0 2%;
