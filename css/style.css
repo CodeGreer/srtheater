@@ -111,15 +111,20 @@ p, ul {
     font-size: 1.75em;
 }
 
-.black:link, .black:visited, .black:active {
+.black_under:link, .black_under:visited, .black_under:active, .black_under:hover {
     color: #000000; 
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+.black_bold:link, .black_bold:visited, .black_bold:active, .black_bold:hover {
+    color: #000000; 
+    font-weight: bold;
 }  
 
-.black:hover {
+.black:link, .black:visited, .black:active, .black:hover {
     color: #000000; 
-    border-bottom: .02em dotted;    
-}  
+    text-decoration: none;
+} 
 
 .white:link, .white:visited {
     color: #FAFAFA; 
@@ -128,7 +133,7 @@ p, ul {
 
 .white:hover {
     color: #FAFAFA; 
-    border-bottom: .08em dotted 
+    text-decoration: underline; 
 }
 
 .bold {
@@ -531,4 +536,577 @@ footer {
     display: inline;
     list-style-type: none;
     padding: 0 2%;
+}
+
+
+
+/**** Mobile First Media Queries ****/
+
+
+/*** Up to 5200px 25% ***/
+@media only screen and (max-width: 325em) {
+  
+body {
+    font-size: 400%;
+} 
+}
+
+/*** Up to 3904px 33% ***/
+@media only screen and (max-width: 244em) {
+    
+body {
+     font-size: 300.5%;
+}         
+}
+
+/*** Up to 2640px 50% ***/
+@media only screen and (max-width: 165em) {
+    
+body {
+     font-size: 200%;
+}   
+}
+
+/*** Up to 2000px 67% ***/
+@media only screen and (max-width: 125em) {
+    
+body {
+     font-size: 150.2%;
+}     
+}
+
+/*** Up to 1840px 75% ***/
+@media only screen and (max-width: 115em) {
+ 
+body {
+     font-size: 133.3%;
+}        
+}
+
+/*** Up to 1520px 90% ***/
+@media only screen and (max-width: 95em) {
+ 
+body {
+     font-size: 111.1%;
+}        
+}
+
+/*** Up to 1360px 100% ***/
+@media only screen and (max-width: 85em) {
+   
+body {
+    font-size: 95%;
+} 
+}
+    
+/*** Up to 1280px 100% ***/    
+@media only screen and (max-width: 80em) {
+    
+body {
+    font-size: 95%;
+} 
+}
+
+/*** Up to 1200px 110% ***/
+@media only screen and (max-width: 75em) {
+  
+body {
+    font-size: 90%;
+}   
+}
+
+/*** Up to 1120px ***/
+@media only screen and (max-width: 70em) {
+  
+body {
+    font-size: 90%;  
+} 
+}
+
+/*** Up to 1040px 125% ***/
+@media only screen and (max-width: 65em) {
+    
+body {
+     font-size: 89%;
+}  
+    
+/* Landing View */    
+    
+.marquee {
+    width: 36%;
+    margin: 0 40% 0 0;
+} 
+
+.h3_index {
+    width: 90%;
+    margin:  0 5%;
+    font-size: 2.5em;
+}    
+    
+.buytickets_home {
+    width: 26%;
+    margin: 0 0 0 45%;
+}     
+}
+
+/*** Up to 976px ***/
+@media only screen and (max-width: 61em) {
+  
+body {
+    font-size: 89%;
+}
+    
+.rwd_break_976 {
+    display: inline;
+}
+    
+figure img {
+    width: 40%;
+}  
+    
+.content_light_flex p, .content_dark_flex p {
+    flex: 0 0 50%;
+    padding-bottom: 5%;
+}        
+}
+
+/*** Up to 880px 150% ***/
+@media only screen and (max-width: 55em) {
+  
+body {
+   font-size: 98%;
+} 
+    
+/* Landing View */    
+    
+.marquee {
+    width: 30%;
+    margin: 0 40% 0 0;
+} 
+
+.h3_index {
+    width: 90%;
+    margin: -5% 5% 0 5%;
+    font-size: 1.9em;
+}    
+    
+.buytickets_home {
+    width: 20%;
+    margin: 0 0 0 45%;
+} 
+    
+/* Footer */    
+
+#menu  a {
+    font-size: 1.3em;
+}    
+
+.social_media {
+    width: 10%;
+}
+    
+}
+
+/************ Change Format ************/
+
+
+/*** Up to 800px 175% ***/
+@media only screen and (max-width: 50em) {
+ 
+body {
+    font-size: 88%;
+}    
+    
+#page_curtains > .leftcurtain, #page_curtains > .rightcurtain {
+   display: none;
+} 
+
+.srt {
+    display: none;
+} 
+    
+.srt_mobile {
+    display: block;
+    float: left;
+    width: 37%;
+    margin-left: 3%;
+}
+
+h3.page_header {
+    width: 50%;
+    font-size: 3em;
+    float: right;
+    margin-top: 0;
+}       
+    
+#map {
+    padding-bottom: 40%;
+}
+    
+.rwd_break_800 {
+    display: inline;
+}
+    
+/* Secondary Pages */   
+    
+main {
+    width: 100%;
+    margin: 0 auto;
+}     
+
+.content_dark h2, .content_light h2 {
+    margin: 3% 5% 3% 0;
+}               
+
+/* Footer */
+    
+#menu {
+    width: 70%;
+    height: auto;  
+} 
+    
+.logo {
+    width: 28%;
+}
+    
+#menu nav {
+    margin: 5% 0;
+}    
+    
+#menu a {
+    font-size: 1.3em;
+    margin: 0 2%;
+} 
+    
+/* Footer */ 
+    
+footer {
+    width: 100%;
+    margin: 0 auto;
+}
+    
+.copyright {
+    width: 100%;
+    margin: 0 auto;
+}          
+}
+
+/*** Up to 720px ***/
+@media only screen and (max-width: 45em) {
+ 
+body {
+    font-size: 90%;
+} 
+    
+.rwd_break_720 {
+    display: inline;
+}
+    
+.home_flex div, .show_flex div {
+    flex-basis: 46%;
+    padding-bottom: 4%;
+    margin: 0 auto;
+}     
+ 
+/* Footer */
+    
+#menu nav {
+    margin: 5% 0;
+}    
+    
+#menu a {
+    font-size: 1.3em;
+    margin: 0 2%;
+} 
+}
+
+/*** Up to 640px ***/
+@media only screen and (max-width: 40em) {
+    
+body {
+    font-size: 89%;
+}  
+    
+.rwd_break_640 {
+    display: inline;
+}  
+    
+.rwd_break_976 {
+    display: none;
+} 
+    
+/* Find Us */    
+    
+#find_us {
+    display: block;
+    padding-top: 1em;
+}
+    
+#address {
+    display: none;
+}
+    
+#address_mobile {
+    display: block;
+    max-width: 100%;
+    width: 90%;
+    margin: 0 5%;
+    padding: 0 0 4% 0;
+    float: none;
+}
+    
+#address_mobile h2 {
+    text-align: center;
+}
+
+#address_mobile p {
+    text-align: center;
+}             
+
+#map {
+    width: 80%;
+    margin: 0 10% 4% 10%;
+    float: none;
+    position: relative;
+    padding-bottom: 70%;
+}  
+}
+
+/*** Up to 560px ***/
+@media only screen and (max-width: 35em) {
+  
+body {
+    font-size: 85%;
+}  
+    
+h2, h5 {
+    text-align: center;
+}
+    
+h3 {
+    margin-top: -5%;
+}  
+    
+div ul li {
+    font-size: 1.2em;
+}    
+    
+/* Landing View */    
+    
+.marquee {
+    width: 70%;
+    margin: 0 15%;
+} 
+
+.buytickets_home {
+    width: 45%;
+    margin: 0 25% 0 25%;
+}
+    
+.home_flex div, .show_flex div {
+    flex-basis: 100%;
+} 
+    
+/* Find Us */
+    
+#map {
+    width: 90%;
+    margin: 0 5% 4% 5%;
+}     
+    
+/* Secondary Pages */
+    
+header {
+    height: auto;
+}
+    
+.srt_mobile {
+    width: 40%;
+    margin: 0;
+}
+
+h3.page_header {
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-bottom: 2%;
+    font-size: 2.5em;
+    text-align: center;
+}    
+    
+.content_dark h2, .content_light h2 {
+    text-align: center;
+    margin: 6% 0 2% 0;
+}
+
+figure img {
+    width: 90%;
+    margin: 0 5% 4% 5%;
+    float: none;
+} 
+    
+.content_light .image_right {
+    width: 90%;
+    margin: 0 5% 4% 5%;
+    float: none;
+} 
+    
+.content_light .image_pad {
+    padding-bottom: 0;
+}
+  
+.content_dark > p, .content_light > p, .partner_content > p {
+    margin-bottom: 4%;
+}   
+    
+.content_light_flex p, .content_dark_flex p {
+    flex-basis: 100%;
+    padding-bottom: 4%;
+}  
+    
+.partner_grid .partner_content {
+    flex-basis: 100%;
+} 
+    
+.partner_content h5 {
+    text-align: center;
+    margin: 4% 0 0 0;
+}    
+  
+/* Footer */
+    
+footer {
+    height: auto;
+}
+    
+.logo {
+    width: 90%;
+    margin: 5%;
+    float: none;
+    top: 0;
+    transform: translateY(0%);
+}    
+    
+#menu {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    top: 0;
+    transform: translateY(0%);
+} 
+    
+#menu nav {
+    margin: 5% 0;
+}    
+    
+#menu a {
+    font-size: 1.6em;
+    margin: 0 4%;
+}
+    
+.social_media {
+    width: 15%;
+}
+    
+.copyright {
+    height: 5em;
+}    
+    
+.copyright ul {
+    font-size: .9em;
+}    
+}
+
+/*** Up to 480px ***/
+@media only screen and (max-width: 30em) {
+    
+body {
+    font-size: 90%
+} 
+  
+h3 {
+    font-size: 2.6em;
+}     
+    
+p, h4.font_25 {
+    font-size: 1.4em;
+}
+    
+p.font_25 {
+    font-size: 1.55em;
+}  
+    
+.rwd_break_480 {
+    display: inline;
+}
+    
+/* Landing View */    
+
+.h3_index {
+    padding: 0 0 10% 0;
+    font-size: 2.3em;
+}    
+    
+.buytickets_home {
+    width: 50%;
+    margin: 0 25% 0 25%;
+}      
+}
+
+/*** Up to 400px ***/
+@media only screen and (max-width: 25em) {
+
+body {
+    font-size: 85%;
+}  
+    
+/* Footer */    
+
+#menu a {
+    font-size: 1.4em;
+    margin: 0 3%;
+}  
+}
+
+/*** Up to 336px ***/
+@media only screen and (max-width: 21em) {
+   
+body {
+    font-size: 80%;
+}  
+ 
+h3 {
+    font-size: 2.5em;
+}       
+    
+h4 {
+    padding-top: 8%;
+}
+    
+.rwd_break_336 {
+    display: inline;
+}
+    
+/* Landing View */    
+
+.h3_index {
+    padding: 0 0 10% 0;
+    font-size: 2em;
+} 
+}
+
+/*** Up to 256px ***/
+@media only screen and (max-width: 16em) {
+   
+body {
+    font-size: 60%;
+}   
+}
+
+/*** Up to 224px ***/
+@media only screen and (max-width: 14em) {
+
+body {
+    font-size: 50%;
+}    
 }
