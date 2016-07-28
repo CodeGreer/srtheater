@@ -59,6 +59,10 @@ html {
     font: normal 100% 'font name', serif;
 }
 
+.nojs {
+    display: none;
+}
+
 body {
     width: 100%;
     margin: 0 auto;
@@ -151,6 +155,10 @@ p, ul {
 
 /* Curtain */
 
+#nojs_curtains {
+    text-align: center;
+}
+
 #curtain {
     text-align: center;
     background-image: url(../images/blackcurtain.jpg);
@@ -191,7 +199,7 @@ p, ul {
     right: 0px;
     top: 0px;
     position: fixed;
-    z-index: 3;
+    z-index: 2;
 }
 
 .rightcurtain img, .leftcurtain img {
@@ -297,7 +305,7 @@ p, ul {
 
 /* Secondary Pages */
 
-#page_curtains > .leftcurtain {
+#page_curtains > .leftcurtain, #nojs_curtains > .leftcurtain {
     width: 10%;
     height: 100%;
     top: 0px;
@@ -306,13 +314,13 @@ p, ul {
     z-index: 2;
 }
 
- #page_curtains > .rightcurtain {
+ #page_curtains > .rightcurtain, #nojs_curtains > .rightcurtain {
     width: 10%;
     height: 100%;
     right: 0px;
     top: 0px;
     position: fixed;
-    z-index: 3;
+    z-index: 2;
 }
 
 header {
@@ -720,6 +728,11 @@ body {
 #page_curtains > .leftcurtain, #page_curtains > .rightcurtain {
    display: none;
 } 
+    
+header {
+    width: 100%;
+    margin: 0 auto;
+}    
 
 .srt {
     display: none;
@@ -730,13 +743,6 @@ body {
     float: left;
     width: 37%;
     margin-left: 3%;
-}
-
-h3.page_header {
-    width: 50%;
-    font-size: 3em;
-    float: right;
-    margin-top: 0;
 }       
     
 #map {
@@ -779,6 +785,11 @@ main {
 } 
     
 /* Footer */ 
+    
+#index_footer {
+    width: 80%;
+    margin: 0 10%;
+}    
     
 footer {
     width: 100%;
@@ -921,22 +932,20 @@ header {
 }
     
 .srt_mobile {
-    width: 40%;
+    width: 60%;
     margin: 0;
+    float: left;
 }
 
 h3.page_header {
     clear: both;
     float: none;
-    width: 100%;
-    margin-bottom: 2%;
-    font-size: 2.5em;
-    text-align: center;
+    margin: 0 5% 2% 0;
 }    
     
 .content_dark h2, .content_light h2 {
     text-align: center;
-    margin: 6% 0 2% 0;
+    margin: 6% 5% 2% 5%;
 }
 
 figure img {
@@ -1044,7 +1053,7 @@ p.font_25 {
 
 .h3_index {
     padding: 0 0 10% 0;
-    font-size: 2.3em;
+    font-size: 2.2em;
 }    
     
 .buytickets_home {
