@@ -1,0 +1,16 @@
+Redirect 301 /about.html http://www.stagedrighttheatre.org/about.php
+
+Redirect 301 /volunteer.html http://www.stagedrighttheatre.org/volunteer.php
+
+Redirect 301 /auditions.html http://www.stagedrighttheatre.org/auditions.php
+
+Redirect 301 /show.html http://www.stagedrighttheatre.org/show.php
+
+Redirect 301 /backstage.html http://www.stagedrighttheatre.org/backstage.php
+
+Redirect 301 /partners.html http://www.stagedrighttheatre.org/partners.php
+
+Redirect 301 /tickets.html http://www.stagedrighttheatre.org/tickets.php
+
+Redirect 301 /index.html http://www.stagedrighttheatre.org/index.php
+

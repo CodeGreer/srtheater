@@ -5,7 +5,7 @@
     
     <title>Staged Right Theatre - Community theater in Lilburn, Georgia | Gwinnett County</title>
 
-    <link rel="canonical" href="your url here">
+    <link rel="canonical" href="http://www.stagedrighttheatre.org/">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -13,17 +13,37 @@
     
     <meta name="description" content="Lilburn's Staged Right Theatre is dedicated to bringing the community back to community theatre.">
 
-<!-- Facebook -->
+<!--FACEBOOK-->
+    <meta property="og:title" content="Staged Right Theatre - Community theater in Lilburn, Georgia | Gwinnett County" >
+    <meta property="og:site_name" content="Staged Right Theatre">
+    <meta property="og:url" content="http://www.stagedrighttheatre.org/" >
+    <meta property="og:description" content="Lilburn's Staged Right Theatre is dedicated to bringing the community back to community theatre." >
+    <meta property="og:image" content="http://www.stagedrighttheatre.org/images/SRTLogo.jpg" >
+    <meta property="fb:app_id" content="" >
+    <meta property="og:type" content="website" >
+    <meta property="og:locale" content="en-US" >
     
+<!--TWITTER-->
+    <meta property="twitter:card" content="summary" >
+    <meta property="twitter:title" content="Staged Right Theatre - Community theater in Lilburn, Georgia | Gwinnett County" >
+    <meta property="twitter:description" content="Lilburn's Staged Right Theatre is dedicated to bringing the community back to community theatre." >
+    <meta property="twitter:creator" content="@StagedRightGA" >
+    <meta property="twitter:url" content="http://www.stagedrighttheatre.org/" >
+    <meta property="twitter:image" content="http://www.stagedrighttheatre.org/images/SRTLogo.jpg" >
+    <meta property="twitter:image:alt" content="Staged Right theatre logo" >
 
-<!-- Twitter -->
-    
-    
 <!-- Favicon -->
-    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
     
 <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     
 <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
@@ -62,8 +82,8 @@
             <div class="leftcurtain"><img alt="Red theatre curtain, left side" src="images/leftfrontcurtain.png"/></div>
             <div class="rightcurtain"><img alt="Red theatre curtain, right side" src="images/rightfrontcurtain.png"/></div>
             <img class="marquee" alt="Staged Right theatre Presents marquee" src="images/sr_presents.png"/>
-            <h3 class="h3_index"><a class="white show" href="show.html">Wait<span class="font_12">!</span></a><br>September 23 -<span class="rwd_break_800"><br></span> October 2, 2016</h3>
-            <a href="tickets.html"><img class="img buytickets_home" alt="Buy Staged Right theatre tickets" src="images/buytickets.png"></a>
+            <h3 class="h3_index"><a class="white show" href="show.php">Wait<span class="font_12">!</span></a><br>September 23 -<span class="rwd_break_800"><br></span> October 2, 2016</h3>
+            <a href="tickets.php"><img class="img buytickets_home" alt="Buy Staged Right theatre tickets" src="images/buytickets.png"></a>
         </div>  
     </noscript>
   
@@ -75,8 +95,8 @@
                 <div class="leftcurtain"><img alt="Red theatre curtain, left side" src="images/leftfrontcurtain.png"/></div>
                 <div class="rightcurtain"><img alt="Red theatre curtain, right side" src="images/rightfrontcurtain.png"/></div>
                 <img class="marquee" alt="Staged Right theatre Presents marquee" src="images/sr_presents.png"/>
-                <h3 class="h3_index"><a class="white show" href="show.html">Wait<span class="font_12">!</span></a><br>September 23 -<span class="rwd_break_800"><br></span> October 2, 2016</h3>
-                <a href="tickets.html"><img class="img buytickets_home" alt="Buy Staged Right theatre tickets" src="images/buytickets.png"></a>
+                <h3 class="h3_index"><a class="white show" href="show.php">Wait<span class="font_12">!</span></a><br>September 23 -<span class="rwd_break_800"><br></span> October 2, 2016</h3>
+                <a href="tickets.php"><img class="img buytickets_home" alt="Buy Staged Right theatre tickets" src="images/buytickets.png"></a>
             </div> 
         </section> 
     </section>
@@ -89,21 +109,21 @@
     <br>
     <div class="home_flex">
         <div>
-            <h2><a class="black" href="auditions.html">Auditions</a></h2>
-            <a href="auditions.html"><img class="img" alt="A woman and man smiling at each other during a Staged Right theatre production" src="images/onthefence.jpg"></a>
-            <p><a class="black_bold" href="auditions.html">Check here</a> for information about upcoming auditions! Cast lists from recent auditions will also be posted here.</p>
+            <h2><a class="black" href="auditions.php">Auditions</a></h2>
+            <a href="auditions.php"><img class="img" alt="A woman and man smiling at each other during a Staged Right theatre production" src="images/onthefence.jpg"></a>
+            <p><a class="black_bold" href="auditions.php">Check here</a> for information about upcoming auditions! Cast lists from recent auditions will also be posted here.</p>
         </div>
 
         <div>
-            <h2><a class="black" href="volunteer.html">Volunteer</a></h2>
-            <a href="volunteer.html"><img class="img" alt="A volunteer paints faces for Staged Right theatre" src="images/12032105.jpg"></a>
-            <p>There are many ways to become part of Staged Right's community! <a class="black_bold" href="volunteer.html">Click here</a> to find out how.</p>
+            <h2><a class="black" href="volunteer.php">Volunteer</a></h2>
+            <a href="volunteer.php"><img class="img" alt="A volunteer paints faces for Staged Right theatre" src="images/12032105.jpg"></a>
+            <p>There are many ways to become part of Staged Right's community! <a class="black_bold" href="volunteer.php">Click here</a> to find out how.</p>
         </div>
 
         <div>
-            <h2><a class="black" href="about.html">About</a></h2>
-            <a href="about.html"><img class="img flex_image" alt="A woman jumping during an audition for Staged Right theatre" src="images/11755108.jpg"></a>
-            <p><a class="black_bold" href="about.html">Click here</a> to find out what we're about and who's running the asylum!</p>
+            <h2><a class="black" href="about.php">About</a></h2>
+            <a href="about.php"><img class="img flex_image" alt="A woman jumping during an audition for Staged Right theatre" src="images/11755108.jpg"></a>
+            <p><a class="black_bold" href="about.php">Click here</a> to find out what we're about and who's running the asylum!</p>
         </div>
     </div>  
                               
@@ -142,22 +162,22 @@
             <nav>
                 <a class="white" href="#">Home</a>
 
-                <a class="white" href="show.html">On Stage</a>
+                <a class="white" href="show.php">On Stage</a>
                 <span class="rwd_break_720"><br><br></span>
 
-                <a class="white" href="auditions.html">Auditions</a>
+                <a class="white" href="auditions.php">Auditions</a>
 
-                <a class="white" href="volunteer.html">Volunteer</a>
+                <a class="white" href="volunteer.php">Volunteer</a>
 
-                <a class="white" href="about.html">About</a>
+                <a class="white" href="about.php">About</a>
             </nav>
 
             <nav>
-                <a class="white" href="index.html#find_us">Find Us</a>
+                <a class="white" href="index.php#find_us">Find Us</a>
 
-                <a class="white" href="partners.html">Partners</a>
+                <a class="white" href="partners.php">Partners</a>
 
-                <a class="white" href="backstage.html">Backstage</a>
+                <a class="white" href="backstage.php">Backstage</a>
             </nav>
 
             <nav>

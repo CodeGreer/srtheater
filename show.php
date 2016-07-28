@@ -16,7 +16,7 @@
     
     
 <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     
 <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
@@ -38,8 +38,8 @@
     
 <!-- Header -->  
     <header>
-        <a href="index.html"><img class="img srt" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
-        <a href="index.html"><img class="img srt_mobile" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
+        <a href="index.php"><img class="img srt" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
+        <a href="index.php"><img class="img srt_mobile" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
         <h3 class="page_header">On Stage</h3>   
     </header>
     
@@ -60,13 +60,14 @@
             <a class="black_bold" href="https://www.google.com/maps/place/76+Main+St+NW,+Lilburn,+GA+30047/@33.8864034,-84.1361053,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5a4fca462a075:0x30ea61eb447e7062!8m2!3d33.886399!4d-84.1339166">76 Main St NW<br>
             Lilburn, GA 30047</a></p>
 
-            <p><a class="black_under show_tickets" href="tickets.html">Buy Tickets</a></p>
+            <p><a class="black_under show_tickets" href="tickets.php">Buy Tickets</a></p>
         </div> 
 
         <div class="content_dark">
             <h2>Our Cast</h2>
-            <p class="right"><span class="bold">TBD</span> - Check our <a class="black_bold" href="auditions.html">auditions page</a> for audition info!</p>
+            <p class="right"><span class="bold">TBD</span> - Check our <a class="black_bold" href="auditions.php">auditions page</a> for audition info!</p>
 
+            <!-- Remove this comment to add cast members 
             <div class="show_flex">
                 <div>
                     <h4>Jane Smith</h4>
@@ -105,7 +106,7 @@
                     <img class="img flex_image" alt="Actor for Staged Right theatre" src="images/11755108.jpg">
                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </main>
     
@@ -118,24 +119,24 @@
 
         <div id="menu">
             <nav>
-                <a class="white" href="index.html">Home</a>
+                <a class="white" href="index.php">Home</a>
 
                 <a class="white" href="#">On Stage</a>
                 <span class="rwd_break_720"><br><br></span>
 
-                <a class="white" href="auditions.html">Auditions</a>
+                <a class="white" href="auditions.php">Auditions</a>
 
-                <a class="white" href="volunteer.html">Volunteer</a>
+                <a class="white" href="volunteer.php">Volunteer</a>
 
-                <a class="white" href="about.html">About</a>
+                <a class="white" href="about.php">About</a>
             </nav>
 
             <nav>
-                <a class="white" href="index.html#find_us">Find Us</a>
+                <a class="white" href="index.php#find_us">Find Us</a>
 
-                <a class="white" href="partners.html">Partners</a>
+                <a class="white" href="partners.php">Partners</a>
 
-                <a class="white" href="backstage.html">Backstage</a>
+                <a class="white" href="backstage.php">Backstage</a>
             </nav>
 
             <nav>

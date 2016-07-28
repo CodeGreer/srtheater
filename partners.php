@@ -16,7 +16,7 @@
     
     
 <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     
 <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
@@ -38,8 +38,8 @@
 
 <!-- Header -->      
     <header>
-        <a href="index.html"><img class="img srt" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
-        <a href="index.html"><img class="img srt_mobile" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
+        <a href="index.php"><img class="img srt" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
+        <a href="index.php"><img class="img srt_mobile" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
         <h3 class="page_header">Partners</h3>   
     </header>  
 <!-- End Header-->
@@ -49,9 +49,9 @@
         <div class="content_light">
             <div class="partner_grid">
                 <div class="partner_content">
-                    <h5><a class="black" href="http://www.lilburnevents.com/wynne-russell-tours-and-events.html">Wynne-Russell<span class="rwd_break_976"><br></span> House</a></h5>
+                    <h5><a class="black" href="http://www.lilburnevents.com/wynne-russell-tours-and-events.php">Wynne-Russell<span class="rwd_break_976"><br></span> House</a></h5>
                     <p>This beautiful, historic home run by the Lilburn Community Partnerships has been home to our auditions and will be the performance venue for one of our future shows!<br>
-                    <a class="black_bold" href="http://www.lilburnevents.com/wynne-russell-tours-and-events.html">Website</a> | <a class="black_bold" href="https://www.facebook.com/pages/Wynne-Russell-House/1476130395961596?fref=ts">Facebook</a> </p>
+                    <a class="black_bold" href="http://www.lilburnevents.com/wynne-russell-tours-and-events.php">Website</a> | <a class="black_bold" href="https://www.facebook.com/pages/Wynne-Russell-House/1476130395961596?fref=ts">Facebook</a> </p>
                 </div> 
 
                 <div class="partner_content">
@@ -63,13 +63,13 @@
             <div class="partner_grid">
                 <div class="partner_content">
                     <h5><a class="black" href="http://www.invisionsdesign.com">In Visions Design</a></h5>
-                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<br>
+                    <p><br>
                     <a class="black_bold" href="http://www.invisionsdesign">Website</a></p>
                 </div> 
 
                 <div class="partner_content">
                     <h5><a class="black" href="http://www.codegreer.com">Code Greer</a></h5>
-                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<br>
+                    <p><br>
                     <a class="black_bold" href="http://www.codegreer.com">Website</a></p>
                 </div> 
             </div>
@@ -85,24 +85,24 @@
 
         <div id="menu">
             <nav>
-                <a class="white" href="index.html">Home</a>
+                <a class="white" href="index.php">Home</a>
 
-                <a class="white" href="show.html">On Stage</a>
+                <a class="white" href="show.php">On Stage</a>
                 <span class="rwd_break_720"><br><br></span>
 
-                <a class="white" href="auditions.html">Auditions</a>
+                <a class="white" href="auditions.php">Auditions</a>
 
-                <a class="white" href="volunteer.html">Volunteer</a>
+                <a class="white" href="volunteer.php">Volunteer</a>
 
-                <a class="white" href="about.html">About</a>
+                <a class="white" href="about.php">About</a>
             </nav>
 
             <nav>
-                <a class="white" href="index.html#find_us">Find Us</a>
+                <a class="white" href="index.php#find_us">Find Us</a>
 
                 <a class="white" href="#">Partners</a>
 
-                <a class="white" href="backstage.html">Backstage</a>
+                <a class="white" href="backstage.php">Backstage</a>
             </nav>
 
             <nav>

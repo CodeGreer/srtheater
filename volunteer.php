@@ -16,7 +16,7 @@
     
     
 <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     
 <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
@@ -38,8 +38,8 @@
 
 <!-- Header -->      
     <header>
-        <a href="index.html"><img class="img srt" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
-        <a href="index.html"><img class="img srt_mobile" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
+        <a href="index.php"><img class="img srt" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
+        <a href="index.php"><img class="img srt_mobile" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
         <h3 class="page_header">Volunteer</h3>   
     </header> 
 <!-- End Header -->
@@ -116,24 +116,24 @@
 
         <div id="menu">
             <nav>
-                <a class="white" href="index.html">Home</a>
+                <a class="white" href="index.php">Home</a>
 
-                <a class="white" href="show.html">On Stage</a>
+                <a class="white" href="show.php">On Stage</a>
                 <span class="rwd_break_720"><br><br></span>
 
-                <a class="white" href="auditions.html">Auditions</a>
+                <a class="white" href="auditions.php">Auditions</a>
 
                 <a class="white" href="#">Volunteer</a>
 
-                <a class="white" href="about.html">About</a>
+                <a class="white" href="about.php">About</a>
             </nav>
 
             <nav>
-                <a class="white" href="index.html#find_us">Find Us</a>
+                <a class="white" href="index.php#find_us">Find Us</a>
 
-                <a class="white" href="partners.html">Partners</a>
+                <a class="white" href="partners.php">Partners</a>
 
-                <a class="white" href="backstage.html">Backstage</a>
+                <a class="white" href="backstage.php">Backstage</a>
             </nav>
 
             <nav>

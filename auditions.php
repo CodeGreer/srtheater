@@ -16,7 +16,7 @@
     
     
 <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     
 <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
@@ -38,9 +38,9 @@
 
 <!-- Header -->      
     <header>
-        <a href="index.html"><img class="img srt" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
+        <a href="index.php"><img class="img srt" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
         
-        <a href="index.html"><img class="img srt_mobile" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
+        <a href="index.php"><img class="img srt_mobile" alt="Staged Right theatre glowing logo" src="images/stagedright.png"></a>
         
         <h3 class="page_header">Auditions</h3>   
     </header>  
@@ -55,13 +55,13 @@
                 <img class="img" alt="Poster for the Staged Right theatre's show Wait!" src="images/WaitPoster.jpg">
             </figure>
             
-            <p class="font_75"><a class="black_bold" href="show.html"><span class="italic">Wait!</span></a> By Julie Jensen</p>
+            <p class="font_75"><a class="black_bold" href="show.php"><span class="italic">Wait!</span></a> By Julie Jensen</p>
 
             <p><span class="bold font_25">Show Dates:</span><br>
             September 23, 24, 25, 30<br>
             October 1, 2</p>
 
-            <p>Our girl Wendy Burger stands on the edge of a summer that will change her life forever. It's the summer she moves out of her father's house (and into the UPS truck). The summer she starts a theatre with the guy she used to date (no one else would have them). The summer she performs her first acting role (Lisa in Hamlet—with a flickering blue light playing the lead, à la Tinkerbell). The summer when she gets tips from the actress, Floating Piñata Head. But most of all it's the summer when she meets O Vixen My Vixen (yes, that's her full name!) who is both beautiful and oh-so-deep. It's the summer that changes everything in Wendy's life. The title, <a class="black_bold italic" href="show.html">Wait!</a>, identifies that moment between the question and the answer, between the old life and the new. It's a moment of great power. No matter what happens, you will not be the same. Directed by Staged Right’s artistic director, Starshine Stanfield, <a class="black_bold italic" href="show.html">Wait!</a> kicks off Staged Right Theatre’s very first season!</p>
+            <p>Our girl Wendy Burger stands on the edge of a summer that will change her life forever. It's the summer she moves out of her father's house (and into the UPS truck). The summer she starts a theatre with the guy she used to date (no one else would have them). The summer she performs her first acting role (Lisa in Hamlet—with a flickering blue light playing the lead, à la Tinkerbell). The summer when she gets tips from the actress, Floating Piñata Head. But most of all it's the summer when she meets O Vixen My Vixen (yes, that's her full name!) who is both beautiful and oh-so-deep. It's the summer that changes everything in Wendy's life. The title, <a class="black_bold italic" href="show.php">Wait!</a>, identifies that moment between the question and the answer, between the old life and the new. It's a moment of great power. No matter what happens, you will not be the same. Directed by Staged Right’s artistic director, Starshine Stanfield, <a class="black_bold italic" href="show.php">Wait!</a> kicks off Staged Right Theatre’s very first season!</p>
 
             <p>For more information, contact Starshine at <a class="black_bold" href="tel:678-836-6214">678&ndash;836&ndash;6214</a> or <a class="black_bold" href="mailto:starshine@starshinesjourney.com">starshine@starshinesjourney.com</a></p>
         </div>
@@ -143,24 +143,24 @@
 
         <div id="menu">
             <nav>
-                <a class="white" href="index.html">Home</a>
+                <a class="white" href="index.php">Home</a>
 
-                <a class="white" href="show.html">On Stage</a>
+                <a class="white" href="show.php">On Stage</a>
                 <span class="rwd_break_720"><br><br></span>
 
                 <a class="white" href="#">Auditions</a>
 
-                <a class="white" href="volunteer.html">Volunteer</a>
+                <a class="white" href="volunteer.php">Volunteer</a>
 
-                <a class="white" href="about.html">About</a>
+                <a class="white" href="about.php">About</a>
             </nav>
 
             <nav>
-                <a class="white" href="index.html#find_us">Find Us</a>
+                <a class="white" href="index.php#find_us">Find Us</a>
 
-                <a class="white" href="partners.html">Partners</a>
+                <a class="white" href="partners.php">Partners</a>
 
-                <a class="white" href="backstage.html">Backstage</a>
+                <a class="white" href="backstage.php">Backstage</a>
             </nav>
 
             <nav>
