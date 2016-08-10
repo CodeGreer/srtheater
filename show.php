@@ -67,7 +67,7 @@
             <h2>Our Cast</h2>
             <p class="right"><span class="bold">TBD</span> - Check our <a class="black_bold" href="auditions.php">auditions page</a> for audition info!</p>
 
-            <!-- Remove this comment to add cast members 
+          
             <div class="show_flex">
                 <div>
                     <h4>Jane Smith</h4>
@@ -90,9 +90,9 @@
 
             <div class="show_flex">
                 <div>
-                    <h4>Jane Smith</h4>
-                    <img class="img" alt="Actor for Staged Right theatre" src="images/11755108.jpg">
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+                    <h4></h4>
+                   <!--  <img class="img" alt="Actor for Staged Right theatre" src="images/11755108.jpg"> -->
+                    <p></p>
                 </div>
 
                 <div>
@@ -102,11 +102,11 @@
                 </div>
 
                 <div>
-                    <h4>Jane Smith</h4>
-                    <img class="img flex_image" alt="Actor for Staged Right theatre" src="images/11755108.jpg">
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <h4></h4>
+                   <!--  <img class="img flex_image" alt="Actor for Staged Right theatre" src="images/11755108.jpg"> -->
+                    <p></p>
                 </div>
-            </div> -->
+            </div> 
         </div>
     </main>
     
