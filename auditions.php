@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
     
     <title>Auditions | Staged Right Theatre</title>
 
@@ -52,64 +52,67 @@
             <h2>Currently Casting</h2>
             
             <figure>
-                <img class="img" alt="Poster for the Staged Right theatre's show Wait!" src="images/WaitPoster.jpg">
+                <img class="img" alt="Poster for the Staged Right theatre's show Constellations" src="images/ConstellationsPrePromo.png">
             </figure>
             
-            <p class="font_75"><a class="black_bold" href="show.php"><span class="italic">Wait!</span></a> By Julie Jensen</p>
+            <p class="font_75"><a class="black_bold" href="show.php"><span class="italic">Constellations</span></a>  by Nick Payne</p>
 
             <p><span class="bold font_25">Show Dates:</span><br>
-            September 23, 24, 25, 30<br>
-            October 1, 2</p>
+            July 15, 2017</p>
 
-            <p>Our girl Wendy Burger stands on the edge of a summer that will change her life forever. It's the summer she moves out of her father's house (and into the UPS truck). The summer she starts a theatre with the guy she used to date (no one else would have them). The summer she performs her first acting role (Lisa in Hamlet—with a flickering blue light playing the lead, à la Tinkerbell). The summer when she gets tips from the actress, Floating Piñata Head. But most of all it's the summer when she meets O Vixen My Vixen (yes, that's her full name!) who is both beautiful and oh-so-deep. It's the summer that changes everything in Wendy's life. The title, <a class="black_bold italic" href="show.php">Wait!</a>, identifies that moment between the question and the answer, between the old life and the new. It's a moment of great power. No matter what happens, you will not be the same. Directed by Staged Right’s artistic director, Starshine Stanfield, <a class="black_bold italic" href="show.php">Wait!</a> kicks off Staged Right Theatre’s very first season!</p>
+            <p>From the publisher: “This spellbinding, romantic journey begins with a simple encounter between a man and a woman. But what happens next defies the boundaries of the world we think we know—delving into the infinite possibilities of their relationship and raising questions about the difference between choice and destiny.”</p>
 
-            <p>For more information, contact Starshine at <a class="black_bold" href="tel:678-836-6214">678&ndash;836&ndash;6214</a> or <a class="black_bold" href="mailto:starshine@starshinesjourney.com">starshine@starshinesjourney.com</a></p>
+            <p>For more information, email <a class="black_bold" href="mailto:auditions@stagedrighttheatre.org">auditions@stagedrighttheatre.org</a></p>
         </div>
 
         <div class="content_light">
             <br>
             <div class="content_light_flex">
-                <p><span class="bold font_25">Audition Dates:</span><br>Th 7/21 7:00pm - 9:00pm<br>(last check in at 9:00pm)<br><br>Sat 7/23  1pm - 6pm<br>(last check in at 6:00pm)<br><br>Sun 7/24 1pm - 6pm Callbacks<br>(appointment only)</p>
+                <p><span class="bold font_25">Audition Dates:</span><br>Saturday, May 6th, 1:00pm - 3:00pm<br>Sunday, May 7th 1:00pm - 5:00pm</p>
 
                 <p><span class="bold font_25">Audition Location:</span><br><span class="bold"></span>Historic Wynne Russell House<br><a class="black_bold" href="https://www.google.com/maps/place/4684+Wynne+Russell+Dr+NW,+Lilburn,+GA+30047/@33.8986056,-84.1405501,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5a4f385f253cb:0x69ad79ff906e22bb!8m2!3d33.8986012!4d-84.1383614">4684 Wynne Russell Dr NW<br>Lilburn, GA 30047</a></p>
 
-                <p class="noshrink"><span class="bold font_25">Audition Requirements:</span><br>Please prepare two (2) contrasting monologues totaling no more than 3 minutes. There will also be cold readings and improv.</p> 
+                <p class="noshrink"><span class="bold font_25">Audition Requirements:</span><br>Please prepare one (1) monologue - comedic/dramatic - approx. 60seconds in length. There will also be cold readings and possible improv.</p> 
             </div>
 
             <p class="bold">All roles are unpaid volunteer.</p>
 
             <br>
 
-            <p>Casting 1 male and 3 females - <span class="italic"><span class="rwd_break_800"><br></span>Please note the breakdown, some actors will be playing multiple roles</span></p>
+            <p>Casting 1 male and 1 female</p>
 
-            <figure>
-                <img class="img" alt="A Woman jumping during a Staged Right theatre audition" src="images/11755108.jpg">
-            </figure>
-
-            <ul>
-                <li><span class="bold">1 Female Actor to Play:</span></li>
-                <li>WENDY BURGER, a woman in her 20 with boots</li>
+            <!--<ul>
+                <li><span class="bold">Miles, male, 40s</span></li>
+                <li>Mild-mannered, small-town business owner with an undiscovered passion for theatre. Plays Lady Romola and Valentino in the farce.</li>
             </ul>
             <br>
             <ul>
-                <li><span class="bold">1 Female Actor to Play:</span></li>
-                <li>O VIXEN, MY VIXEN, a woman in her 20s, a vixen</li>
+                <li><span class="bold">True, male, 30s</span></li>
+                <li>Roguish, handsome charmer, with a taste for alcohol and a past he can't quite shake. Plays Countess Roquefort in the farce.</li>
             </ul>
             <br>
             <ul>
-                <li><span class="bold">1 Female Actor to Play:</span></li>
-                <li>MODESTO, a woman who’s been there, in her 50s</li>
-                <li>JEN-YA, a woman from Rumania, 50</li>
-                <li>FLOATING PINATA HEAD, a woman of the theatre, 50</li>
+                <li><span class="bold">Casper, male, 20s</span></li>
+                <li>Gentle, confused soul struggling to understand who he is. Plays Greta the Maid in the farce.</li>
             </ul>
             <br>
             <ul>
-                <li><span class="bold">1 Male Actor to Play:</span></li>
-                <li>DAD, Wendy’s father, in his late 50s</li>
-                <li>HAZAR, a man from Armenia, 50</li>
-                <li>LU, a man in his 20s, outrageous</li>
+                <li><span class="bold">Dorothy, female, 40s</span></li>
+                <li>Wife of Miles. Needs to play the accordion. Pragmatic with strong convictions, sees change as a threat to her way of life and her marriage. Loves her husband deeply. Briefly inhabits the character of Miles in Act II</li>
             </ul>
             <br>
+            <ul>
+                <li><span class="bold">Zina, female, age 30s - 60s</span></li>
+                <li>Smart, traveled, perceptive, pants-wearing director of the farce. Briefly inhabits the character of Casper in Act II</li>
+            </ul>
+            <br>
+            <ul>
+                <li><span class="bold">Lorna, female, 20s (flexible)</span></li>
+                <li>Local girl made good, outgrown her small-town roots. Quiet strength. Briefly inhabits the character of True in Act II</li>-->
+            </ul>
+            <br>
+            <ul>
+          <br>
         </div>
 
         <div class="content_dark">
@@ -118,20 +121,20 @@
 
         <div class="content_dark">
             <div class="content_dark_flex">
-                <p><span class="bold font_25">October, 2016</span><br>
+                <!--<p><span class="bold font_25">October, 2016</span><br>
                 <span class="italic">Almost Maine</span> by John Cariani<br>
                 Directed by Robbie Summerour<br>
-                Show dates in December, 2016</p>
+                Show dates in December, 2016</p>-->
 
-                <p><span class="bold font_25">January, 2017</span><br>
+                <!--<p><span class="bold font_25">January, 2017</span><br>
                 <span class="italic">A Doll’s House</span> by Henrik Ibsen<br>
                 Directed by Brian Jones<br>
-                Show dates in March, 2017</p>
+                Show dates in March, 2017</p>-->
 
-                <p><span class="bold font_25">March, 2017</span><br>
-                <span class="italic">Act A Lady</span> by Jordan Harrison<br>
+                <p><span class="bold font_25">Stay tuned for auditions for our 2017-2018 season!</span><br>
+                <!--<span class="italic">Act A Lady</span> by Jordan Harrison<br>
                 Directed by Starshine Stanfield<br>
-                Show dates in May, 2017</p>
+                Show dates in May, 2017</p>-->
             </div>
         </div>
     </main>

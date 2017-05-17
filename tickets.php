@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
     
     <title>Tickets | Staged Right Theatre</title>
 
@@ -50,22 +50,22 @@
             <h2>Now Showing</h2>
             
             <figure>
-                <img class="img image_pad" src="images/WaitPoster.jpg">
+                <img class="img image_pad" src="images/AALPoster.png">
             </figure>
 
             <ul>
                 <li class="bold">Tickets are:</li>
 
-                <li>$15/adults</li>
-                <li>$12/seniors (65+)</li>
-                <li>$12/children (12 and under)</li>
-                <li>$12/students (13-22 with student ID)</li>
+                <li>$15.00 - Adults</li>
+                <li>$12.00 - Students/Seniors (55 & up)</li>
+                <li>$12.50 - Members</li>
+                <li>$10.00 - Student/Senior Members</li>
                 <br>
                 <li><a class="black_bold" href="mailto:stagedrighttheatrega@gmail.com">Contact</a> for group rates.</li>
             </ul>
             <br><br>
             
-            <p>Tickets can be purchased at the door, or through <a class="black_bold" href="https://www.paypal.me/stagedrighttheatre">PayPal</a>. Please include the number and type of ticket(s) being purchased in the comment section.</p>
+            <p>Tickets can be purchased at the door, or <a class="black_bold" href="https://ticketpeak.com/res/stagedrighttheatrega">online</a>.</p>
             
           
         </div>

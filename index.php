@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
     
     <title>Staged Right Theatre - Community theater in Lilburn, Georgia | Gwinnett County</title>
 
@@ -33,6 +33,7 @@
     <meta property="twitter:image:alt" content="Staged Right theatre logo" >
 
 <!-- Favicon -->
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -81,7 +82,7 @@
             <div class="leftcurtain"><img alt="Red theatre curtain, left side" src="images/leftfrontcurtain.png"/></div>
             <div class="rightcurtain"><img alt="Red theatre curtain, right side" src="images/rightfrontcurtain.png"/></div>
             <img class="marquee" alt="Staged Right theatre Presents marquee" src="images/sr_presents.png"/>
-            <h3 class="h3_index"><a class="white show" href="show.php">Wait<span class="font_12">!</span></a><br>September 23 -<span class="rwd_break_800"><br></span> October 2, 2016</h3>
+            <h3 class="h3_index"><a class="white show" href="show.php">Act A Lady<span class="font_12">!</span></a><br>May 12 -<span class="rwd_break_800"><br></span>21, 2017</h3>
             <a href="tickets.php"><img class="img buytickets_home" alt="Buy Staged Right theatre tickets" src="images/buytickets.png"></a>
         </div>  
     </noscript>
@@ -94,7 +95,7 @@
                 <div class="leftcurtain"><img alt="Red theatre curtain, left side" src="images/leftfrontcurtain.png"/></div>
                 <div class="rightcurtain"><img alt="Red theatre curtain, right side" src="images/rightfrontcurtain.png"/></div>
                 <img class="marquee" alt="Staged Right theatre Presents marquee" src="images/sr_presents.png"/>
-                <h3 class="h3_index"><a class="white show" href="show.php">Wait<span class="font_12">!</span></a><br>September 23 -<span class="rwd_break_800"><br></span> October 2, 2016</h3>
+                <h3 class="h3_index"><a class="white show" href="show.php">Act A Lady<span class="font_12"></span></a><br>May 12 -<span class="rwd_break_800"><br></span> 21, 2017</h3>
                 <a href="tickets.php"><img class="img buytickets_home" alt="Buy Staged Right theatre tickets" src="images/buytickets.png"></a>
             </div> 
         </section> 
