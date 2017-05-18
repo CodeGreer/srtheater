@@ -368,7 +368,7 @@ ul {
     float: left;
     position: relative;
     padding-bottom: 30%;
-    overflow: hidden
+    overflow: hidden;
 }
 
 #map iframe {
@@ -1057,7 +1057,7 @@ footer {
 
 @media only screen and (max-width: 21em) {
     body {
-        font-size: 80%
+        font-size: 72%
     }
     h3 {
         font-size: 2.5em

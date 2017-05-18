@@ -130,6 +130,9 @@
 
             <nav>
                 <a class="white" href="index.php#find_us">Find Us</a>
+                
+                <a class="white" href="membership.php">Memberships</a>
+                <span class="rwd_break_720"><br><br></span>
 
                 <a class="white" href="partners.php">Partners</a>
 

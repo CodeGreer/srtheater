@@ -68,7 +68,7 @@
                 </div> 
 
                 <div class="partner_content">
-                    <h5><a class="black" href="http://www.codegreer.com">Code Greer</a></h5>
+                    <h5><a class="black" href="http://www.codegreer.com">CodeGreer</a></h5>
                     <p>Sarah Greer runs this growing web development company whose focus is on building handcrafted websites distinctly designed for each client. Sarah is the brains and the talent behind the development of this fantastic website.<br>
                     <a class="black_bold" href="http://www.codegreer.com">Website</a></p>
                 </div> 
@@ -99,6 +99,9 @@
 
             <nav>
                 <a class="white" href="index.php#find_us">Find Us</a>
+                
+                <a class="white" href="membership.php">Memberships</a>
+                <span class="rwd_break_720"><br><br></span>
 
                 <a class="white" href="#">Partners</a>
 

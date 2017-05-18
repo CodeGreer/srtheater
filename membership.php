@@ -60,7 +60,9 @@
             <p>Memberships are $50, and benefits include:<br>
             Discounted show tickets<br>
             Invitations to member-only events<br>
-            Listed as a member on our website and in programs</p>
+            Listed as a member on our website and in programs<br><br>
+                
+            <a class="black_bold" href=" https://www.paypal.me/stagedrighttheatrega">Payments via PayPal can be made here.</a></p>
 
             <p>From May 15th - June 15th, new memberships will unlock the following events:</p>
         </div>
@@ -121,7 +123,7 @@
                 <a class="white" href="show.php">On Stage</a>
                 <span class="rwd_break_720"><br><br></span>
 
-                <a class="white" href="#">Auditions</a>
+                <a class="white" href="auditions.php">Auditions</a>
 
                 <a class="white" href="volunteer.php">Volunteer</a>
 
@@ -130,6 +132,9 @@
 
             <nav>
                 <a class="white" href="index.php#find_us">Find Us</a>
+                
+                <a class="white" href="#">Memberships</a>
+                <span class="rwd_break_720"><br><br></span>
 
                 <a class="white" href="partners.php">Partners</a>
 

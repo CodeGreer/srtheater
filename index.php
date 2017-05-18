@@ -43,7 +43,7 @@
 
     
 <!-- CSS -->
-    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     
 <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
@@ -137,7 +137,7 @@
         </div>
         
         <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26496.541722844413!2d-84.155581638628!3d33.88790983731525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a4f96e2d9a1b%3A0x7086f81148e8750!2sLilburn%2C+GA+30047!5e0!3m2!1sen!2sus!4v1467747799860" width="600" height="450" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26496.54172284792!2d-84.15558158267122!3d33.887909837303965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a4f96e2d9a1b%3A0x7086f81148e8750!2sLilburn%2C+GA+30047!5e0!3m2!1sen!2sus!4v1495071101845" width="600" height="450" style="border:0" allowfullscreen></iframe>
         </div>
 
         <div id="address">
@@ -174,6 +174,9 @@
 
             <nav>
                 <a class="white" href="index.php#find_us">Find Us</a>
+                
+                <a class="white" href="membership.php">Memberships</a>
+                <span class="rwd_break_720"><br><br></span>
 
                 <a class="white" href="partners.php">Partners</a>
 
