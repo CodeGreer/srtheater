@@ -16,7 +16,8 @@
     
     
 <!-- CSS -->
-    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    
     
 <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
@@ -47,13 +48,47 @@
 <!-- Main -->
     <main>
         <div class="content_light">
-            <h2>Coming Soon</h2>
+            <h2>Act A Lady</h2>
             
-            <figure>
+            <div class="slider single-item">
+                <div><img src="images/Act_A_Lady/_IGP4100.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4104.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4107.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4128.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4153.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4156.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4190.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4219.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4235.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4250.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4263.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4265.jpg"></div>
+            </div>
+            <br><br>
+            
+            <h2>Act Doll's House</h2>
+            
+            <div class="slider slider2">
+                <div><img src="images/A_Dolls_House/IMG_4562.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4566.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4589.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4596.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4599.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4602.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4608.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4612.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4614.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4619.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4624.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4626.JPG"></div>
+            </div>
+           
+            
+            <!-- <figure>
                 <img class="img image_pad" src="images/12308719.jpg">
             </figure>
 
-            <p>Check back later for behind the scences images of rehearsals and events!</p>
+            <p>Check back later for behind the scences images of rehearsals and events!</p> -->
             
           
         </div>
@@ -117,6 +152,37 @@
 <!-- End Copyright -->    
     
 <!-- Javascript -->  
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+			
+    <script>
+        $(document).ready(function(){
+          $('.single-item').slick({
+              infinite: true,
+              autoplay: true,
+              autoplaySpeed: 3000,
+              arrows: true,
+              dots: true,
+              slidesToShow: 1,
+              slideToScroll: 1,
+              fade: true
+          });
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function(){
+          $('.slider2').slick({
+              infinite: true,
+              autoplay: true,
+              autoplaySpeed: 3000,
+              arrows: true,
+              slidesToShow: 1,
+              slideToScroll: 1
+          });
+        });
+    </script>
         
 <!-- End Javascript -->          
     
