@@ -63,10 +63,57 @@
                 <div><img src="images/Act_A_Lady/_IGP4250.jpg"></div>
                 <div><img src="images/Act_A_Lady/_IGP4263.jpg"></div>
                 <div><img src="images/Act_A_Lady/_IGP4265.jpg"></div>
+                
+                <div><img src="images/Act_A_Lady/_IGP4275.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4292.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4297.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4302.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4315.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4320.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4323.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4328.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4331.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4345.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4352.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4356.jpg"></div>
+                
+                <div><img src="images/Act_A_Lady/_IGP4358.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4385.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4411.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4429.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4438.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4443.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4444.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4457.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4462.jpg"></div>
+                <div><img src="images/Act_A_Lady/_IGP4514.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4087.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4088.jpg"></div>
+                
+                <div><img src="images/Act_A_Lady/IMGP4090.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4134.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4144.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4146.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4160.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4161.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4173.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4176.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4191.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4206.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4211.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4367.jpg"></div>
+                
+                
+                <div><img src="images/Act_A_Lady/IMGP4418.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4476.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4503.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4522.jpg"></div>
+                <div><img src="images/Act_A_Lady/IMGP4540.jpg"></div>
+                
             </div>
-            <br><br>
             
-            <h2>Act Doll's House</h2>
+            
+            <h2>A Doll's House</h2>
             
             <div class="slider slider2">
                 <div><img src="images/A_Dolls_House/IMG_4562.JPG"></div>
@@ -81,6 +128,44 @@
                 <div><img src="images/A_Dolls_House/IMG_4619.JPG"></div>
                 <div><img src="images/A_Dolls_House/IMG_4624.JPG"></div>
                 <div><img src="images/A_Dolls_House/IMG_4626.JPG"></div>
+                
+                <div><img src="images/A_Dolls_House/IMG_4630.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4634.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4636.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4638.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4641.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4644.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4656.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4659.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4664.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4670.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4673.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4674.JPG"></div>
+                
+                <div><img src="images/A_Dolls_House/IMG_4679.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4686.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4688.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4691.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4693.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4699.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4702.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4703.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4704.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4709.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4712.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4713.JPG"></div>
+                
+                <div><img src="images/A_Dolls_House/IMG_4714.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4718.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4722.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4729.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4730.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4732.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4733.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4737.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4738.JPG"></div>
+                <div><img src="images/A_Dolls_House/IMG_4743.JPG"></div>
+            
             </div>
            
             
@@ -161,9 +246,8 @@
           $('.single-item').slick({
               infinite: true,
               autoplay: true,
-              autoplaySpeed: 3000,
-              arrows: true,
-              dots: true,
+              autoplaySpeed: 2000,
+              arrows: false,
               slidesToShow: 1,
               slideToScroll: 1,
               fade: true
@@ -176,10 +260,11 @@
           $('.slider2').slick({
               infinite: true,
               autoplay: true,
-              autoplaySpeed: 3000,
-              arrows: true,
+              autoplaySpeed: 2000,
+              arrows: false,
               slidesToShow: 1,
-              slideToScroll: 1
+              slidesToScroll: 1,
+              fade: true
           });
         });
     </script>
