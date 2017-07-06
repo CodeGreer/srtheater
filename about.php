@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
     
     <title>About | Staged Right Theatre</title>
     
@@ -64,11 +64,10 @@
             <div class="content_dark_flex">
                 <p>
                     <span class="bold font_25">Board of Directors:</span><br>
-                    President - Jeff LeCraw<br>
-                    Vice President - Dave Huenergardt<br>
+                    President - Dave Huenergardt<br>
                     Secretary - Ilene Miller<br>
                     Treasurer - Paul Franklin<br>
-                    Members-at-Large - Shannon Varner-Alexander, Kendal Franklin, Starshine Stanfield
+                    Members-at-Large - Shannon Varner-Alexander, Kendal Franklin, Starshine Stanfield, Brian Jones
                 </p>
 
                 <p></p>
@@ -79,7 +78,7 @@
                     Managing Director - Kendal Franklin<br>
                     <br> 
                     <span class="bold font_25">Contact us:</span><br> 
-                    <a class="black_bold" href="mailto:stagedrighttheatrega@gmail.com">stagedrighttheatrega@gmail.com</a>
+                    <a class="black_bold" href="mailto:info@stagedrighttheatre.org">info@stagedrighttheatre.org</a>
                 </p>
             </div>
         </div>
@@ -108,6 +107,9 @@
 
             <nav>
                 <a class="white" href="index.php#find_us">Find Us</a>
+                
+                <a class="white" href="membership.php">Memberships</a>
+                <span class="rwd_break_720"><br><br></span>
 
                 <a class="white" href="partners.php">Partners</a>
 

@@ -1,9 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta http-equiv="Content-Type" content="text/html; charset=IBM367" >
     
-    <title>Wait! | Staged Right Theatre</title>
+    <title>Act A Lady | Staged Right Theatre</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -48,63 +48,83 @@
 <!-- Main -->    
     <main>
         <div class="content_light">
-            <h2>Wait!</h2>
+            <h2>Act A Lady</h2>
             
             <figure>
-                <img class="img" alt="Poster for the Staged Right theatre's show Wait!" src="images/WaitPoster.jpg">
+                <img class="img" alt="Poster for the Staged Right theatre's show Act A Lady" src="images/AALPoster.png">
             </figure>
 
-            <p>Our girl Wendy Burger stands on the edge of a summer that will change her life forever. It's the summer she moves out of her father's house (and into the UPS truck). The summer she starts a theatre with the guy she used to date (no one else would have them). The summer she performs her first acting role (Lisa in Hamlet—with a flickering blue light playing the lead, à la Tinkerbell). The summer when she gets tips from the actress, Floating Piñata Head. But most of all it's the summer when she meets O Vixen My Vixen (yes, that's her full name!) who is both beautiful and oh-so-deep. It's the summer that changes everything in Wendy's life. The title, <span class="italic">Wait!</span>, identifies that moment between the question and the answer, between the old life and the new. It's a moment of great power. No matter what happens, you will not be the same. Directed by Staged Right’s artistic director, Starshine Stanfield, <span class="italic">Wait!</span> kicks off Staged Right Theatre’s very first season!</p>
-
-            <p>Performances will be in the auditorium of Lilburn City Hall<br>
-            <a class="black_bold" href="https://www.google.com/maps/place/76+Main+St+NW,+Lilburn,+GA+30047/@33.8864034,-84.1361053,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5a4fca462a075:0x30ea61eb447e7062!8m2!3d33.886399!4d-84.1339166">76 Main St NW<br>
+            <p>The final show of our debut season! "When the men of a small Prohibition-era town decide to put on a play dressed in "fancy-type, women-type clothes," the whole community is affected: gender lines blur, eyebrows raise, identities explode, and life and art are forever entangled. A thoughtful and exuberant Midwestern fable about the woman in every man, the man in every woman and the power of theatre to uncover both."</p>
+             
+            <p>Performances will be held at Berkmar Middle School<br>
+            <a class="black_bold" href="https://www.google.com/maps/dir/''/berkmar+middle+school/@33.9037712,-84.198144,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x88f5a4561eccbc4f:0x796ab1f77651d2b!2m2!1d-84.1281039!2d33.903791">4355 Lawrenceville Hwy.<br>
             Lilburn, GA 30047</a></p>
 
-            <p><a class="black_under show_tickets" href="tickets.php">Buy Tickets</a></p>
+           <p><a class="black_under show_tickets" href="tickets.php">Buy Tickets</a></p>
         </div> 
 
         <div class="content_dark">
             <h2>Our Cast</h2>
-            <p class="right"><span class="bold">TBD</span> - Check our <a class="black_bold" href="auditions.php">auditions page</a> for audition info!</p>
+            <!-- <p class="right"><span class="bold">TBD</span> - Check our <a class="black_bold" href="auditions.php">auditions page</a> for audition info!</p> -->
 
-          
+            
             <div class="show_flex">
                 <div>
-                    <h4>Jane Smith</h4>
-                    <img class="img" alt="Actor for Staged Right theatre" src="images/11755108.jpg">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h4>David Huenergardt</h4>
+                    <img class="img" alt="David Huenergardt" src="images/DavidHuenergardt.jpg">
+                    <p class="center">as Miles</p>
                 </div>
 
                 <div>
-                    <h4>Jane Smith</h4>
-                    <img class="img" alt="Actor for Staged Right theatre" src="images/11755108.jpg">
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam.</p>
+                    <h4>Dalton Titshaw</h4>
+                    <img class="img flex_image" alt="Dalton Titshaw" src="images/DaltonTitshaw.jpg">
+                    <p class="center">as True</p>
                 </div>
 
                 <div>
-                    <h4>Jane Smith</h4>
-                    <img class="img flex_image" alt="Actor for Staged Right theatre" src="images/11755108.jpg">
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    <h4>JR McCall</h4>
+                    <img class="img flex_image" alt="JR McCall" src="images/JRMcCall.jpg">
+                    <p class="center">as Casper</p>
                 </div>
             </div>
 
             <div class="show_flex">
                 <div>
-                    <h4></h4>
-                   <!--  <img class="img" alt="Actor for Staged Right theatre" src="images/11755108.jpg"> -->
-                    <p></p>
+                    <h4>Nancy Powell</h4>
+                    <img class="img" alt="Nancy Powell" src="images/NancyPowell.jpg">
+                    <p class="center">as Dorothy</p>
                 </div>
 
                 <div>
-                    <h4>Jane Smith</h4>
-                    <img class="img" alt="Actor for Staged Right theatre" src="images/11755108.jpg">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h4>Jenny Titshaw</h4>
+                    <img class="img flex_image" alt="Jenny Titshaw" src="images/JennyTitshaw.jpg">
+                    <p class="center">as Lorna</p>
                 </div>
 
                 <div>
-                    <h4></h4>
-                   <!--  <img class="img flex_image" alt="Actor for Staged Right theatre" src="images/11755108.jpg"> -->
-                    <p></p>
+                    <h4>Marie Violette</h4>
+                    <img class="img flex_image" alt="Marie Violette" src="images/MarieViolette.jpg">
+                    <p class="center">as Zina</p>
+                </div>
+            </div> 
+
+            <!-- <div class="show_flex">
+                <div>
+                    <h4>Nicole Ojeda-Johns</h4>
+                    <img class="img" alt="Nicole Ojeda-Johns" src="images/NicoleOjedaJohns.jpg">
+                    <p class="center">as Maid</p>
+                </div>
+
+                <div>
+                    <h4>Everett Smith</h4>
+                    <img class="img flex_image" alt="Everett Smith" src="images/EverettSmith.jpg">
+                    <p class="center">as Ivar Helmer</p>
+                </div>
+
+                <div>
+                    <h4>Stone Smith</h4>
+                    <img class="img flex_image" alt="Stone Smith" src="images/StoneSmith.jpg">
+                    <p class="center">as Bob Helmer</p> -->
                 </div>
             </div> 
         </div>
@@ -133,6 +153,9 @@
 
             <nav>
                 <a class="white" href="index.php#find_us">Find Us</a>
+                
+                <a class="white" href="membership.php">Memberships</a>
+                <span class="rwd_break_720"><br><br></span>
 
                 <a class="white" href="partners.php">Partners</a>
 

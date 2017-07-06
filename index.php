@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
     
     <title>Staged Right Theatre - Community theater in Lilburn, Georgia | Gwinnett County</title>
 
@@ -33,6 +33,7 @@
     <meta property="twitter:image:alt" content="Staged Right theatre logo" >
 
 <!-- Favicon -->
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -81,7 +82,7 @@
             <div class="leftcurtain"><img alt="Red theatre curtain, left side" src="images/leftfrontcurtain.png"/></div>
             <div class="rightcurtain"><img alt="Red theatre curtain, right side" src="images/rightfrontcurtain.png"/></div>
             <img class="marquee" alt="Staged Right theatre Presents marquee" src="images/sr_presents.png"/>
-            <h3 class="h3_index"><a class="white show" href="show.php">Wait<span class="font_12">!</span></a><br>September 23 -<span class="rwd_break_800"><br></span> October 2, 2016</h3>
+            <h3 class="h3_index"><a class="white show" href="show.php">Act A Lady<span class="font_12">!</span></a><br>May 12 -<span class="rwd_break_800"><br></span>21, 2017</h3>
             <a href="tickets.php"><img class="img buytickets_home" alt="Buy Staged Right theatre tickets" src="images/buytickets.png"></a>
         </div>  
     </noscript>
@@ -94,7 +95,7 @@
                 <div class="leftcurtain"><img alt="Red theatre curtain, left side" src="images/leftfrontcurtain.png"/></div>
                 <div class="rightcurtain"><img alt="Red theatre curtain, right side" src="images/rightfrontcurtain.png"/></div>
                 <img class="marquee" alt="Staged Right theatre Presents marquee" src="images/sr_presents.png"/>
-                <h3 class="h3_index"><a class="white show" href="show.php">Wait<span class="font_12">!</span></a><br>September 23 -<span class="rwd_break_800"><br></span> October 2, 2016</h3>
+                <h3 class="h3_index"><a class="white show" href="show.php">Theatre Under The Stars<span class="font_12"></span></a><br>July<span class="rwd_break_800"><br></span> 15, 2017</h3>
                 <a href="tickets.php"><img class="img buytickets_home" alt="Buy Staged Right theatre tickets" src="images/buytickets.png"></a>
             </div> 
         </section> 
@@ -136,7 +137,9 @@
         </div>
         
         <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26496.541722844413!2d-84.155581638628!3d33.88790983731525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a4f96e2d9a1b%3A0x7086f81148e8750!2sLilburn%2C+GA+30047!5e0!3m2!1sen!2sus!4v1467747799860" width="600" height="450" style="border:0" allowfullscreen></iframe>
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26496.541722844413!2d-84.155581638628!3d33.88790983731525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a4f96e2d9a1b%3A0x7086f81148e8750!2sLilburn%2C+GA+30047!5e0!3m2!1sen!2sus!4v1467747799860" width="600" height="450" style="border:0" allowfullscreen></iframe> -->
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26496.54172284792!2d-84.15558158267122!3d33.887909837303965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a4f96e2d9a1b%3A0x7086f81148e8750!2sLilburn%2C+GA+30047!5e0!3m2!1sen!2sus!4v1495071101845" width="600" height="450" style="border:0" allowfullscreen></iframe>
         </div>
 
         <div id="address">
@@ -173,6 +176,9 @@
 
             <nav>
                 <a class="white" href="index.php#find_us">Find Us</a>
+                
+                <a class="white" href="membership.php">Memberships</a>
+                <span class="rwd_break_720"><br><br></span>
 
                 <a class="white" href="partners.php">Partners</a>
 
