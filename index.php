@@ -43,7 +43,7 @@
 
     
 <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     
 <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
@@ -95,11 +95,7 @@
                 <div class="leftcurtain"><img alt="Red theatre curtain, left side" src="images/leftfrontcurtain.png"/></div>
                 <div class="rightcurtain"><img alt="Red theatre curtain, right side" src="images/rightfrontcurtain.png"/></div>
                 <img class="marquee" alt="Staged Right theatre Presents marquee" src="images/sr_presents.png"/>
-<<<<<<< HEAD
                 <h3 class="h3_index"><a class="white show" href="show.php">Theatre Under The Stars<span class="font_12"></span></a><br>July<span class="rwd_break_800"><br></span> 15, 2017</h3>
-=======
-                <h3 class="h3_index"><a class="white show" href="show.php">Act A Lady<span class="font_12"></span></a><br>May 12 -<span class="rwd_break_800"><br></span> 21, 2017</h3>
->>>>>>> ac7ababd990c0f14c054c3dc3c208a7bf02afe20
                 <a href="tickets.php"><img class="img buytickets_home" alt="Buy Staged Right theatre tickets" src="images/buytickets.png"></a>
             </div> 
         </section> 
@@ -141,11 +137,8 @@
         </div>
         
         <div id="map">
-<<<<<<< HEAD
             <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26496.541722844413!2d-84.155581638628!3d33.88790983731525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a4f96e2d9a1b%3A0x7086f81148e8750!2sLilburn%2C+GA+30047!5e0!3m2!1sen!2sus!4v1467747799860" width="600" height="450" style="border:0" allowfullscreen></iframe> -->
             
-=======
->>>>>>> ac7ababd990c0f14c054c3dc3c208a7bf02afe20
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26496.54172284792!2d-84.15558158267122!3d33.887909837303965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a4f96e2d9a1b%3A0x7086f81148e8750!2sLilburn%2C+GA+30047!5e0!3m2!1sen!2sus!4v1495071101845" width="600" height="450" style="border:0" allowfullscreen></iframe>
         </div>
 

@@ -75,11 +75,7 @@
                     <p class="center">as Miles</p>
                 </div>
 
-<<<<<<< HEAD
                 <div>
-=======
-             <div>
->>>>>>> ac7ababd990c0f14c054c3dc3c208a7bf02afe20
                     <h4>Dalton Titshaw</h4>
                     <img class="img flex_image" alt="Dalton Titshaw" src="images/DaltonTitshaw.jpg">
                     <p class="center">as True</p>
@@ -97,27 +93,9 @@
                     <h4>Nancy Powell</h4>
                     <img class="img" alt="Nancy Powell" src="images/NancyPowell.jpg">
                     <p class="center">as Dorothy</p>
-<<<<<<< HEAD
-=======
                 </div>
 
                 <div>
-                    <h4>Jenny Titshaw</h4>
-                    <img class="img flex_image" alt="Jenny Titshaw" src="images/JennyTitshaw.jpg">
-                    <p class="center">as Lorna</p>
-                </div>
-
-                <div>
-                    <h4>Marie Violette</h4>
-                    <img class="img flex_image" alt="Marie Violette" src="images/MarieViolette.jpg">
-                    <p class="center">as Zina</p>
->>>>>>> ac7ababd990c0f14c054c3dc3c208a7bf02afe20
-                </div>
-            </div> 
-
-            <!-- <div class="show_flex">
-                <div>
-<<<<<<< HEAD
                     <h4>Jenny Titshaw</h4>
                     <img class="img flex_image" alt="Jenny Titshaw" src="images/JennyTitshaw.jpg">
                     <p class="center">as Lorna</p>
@@ -138,14 +116,6 @@
                 </div>
 
                 <div>
-=======
-                    <h4>Nicole Ojeda-Johns</h4>
-                    <img class="img" alt="Nicole Ojeda-Johns" src="images/NicoleOjedaJohns.jpg">
-                    <p class="center">as Maid</p>
-                </div>
-
-                <div>
->>>>>>> ac7ababd990c0f14c054c3dc3c208a7bf02afe20
                     <h4>Everett Smith</h4>
                     <img class="img flex_image" alt="Everett Smith" src="images/EverettSmith.jpg">
                     <p class="center">as Ivar Helmer</p>
