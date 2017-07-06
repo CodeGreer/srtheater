@@ -16,7 +16,8 @@
     
     
 <!-- CSS -->
-    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    
     
     
 <!-- Google Fonts -->
