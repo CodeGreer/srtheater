@@ -105,8 +105,18 @@
 
 <!-- End Curtain -->        
     
-<main class="index">
-    <br>
+<main class="index">    
+    <div class="content_dark">
+        <br>
+        <div class="slider single-item">
+            <div><img src="images/HomepageSeasonImage.png"></div>
+            <div><img src="images/MembershipDrive.png"></div>
+            <!-- <div><img src="images/Act_A_Lady/_IGP4107.jpg"></div>
+            <div><img src="images/Act_A_Lady/_IGP4128.jpg"></div>   -->     
+        </div>
+        <br>
+    </div>
+    
     <div class="home_flex">
         <div>
             <h2><a class="black" href="auditions.php">Auditions</a></h2>
@@ -210,7 +220,25 @@
     </footer>
 <!-- End Copyright -->        
     
-<!-- Javascript -->  
+<!-- Javascript --> 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+			
+    <script>
+        $(document).ready(function(){
+          $('.single-item').slick({
+              infinite: true,
+              autoplay: true,
+              autoplaySpeed: 4000,
+              arrows: true,
+              slidesToShow: 1,
+              slideToScroll: 1,
+              fade: true,
+              dots: true
+          });
+        });
+    </script>
         
 <!-- End Javascript -->          
     

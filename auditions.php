@@ -108,10 +108,9 @@
             <br>
             <ul>
                 <li><span class="bold">Lorna, female, 20s (flexible)</span></li>
-                <li>Local girl made good, outgrown her small-town roots. Quiet strength. Briefly inhabits the character of True in Act II</li>-->
-            </ul>
+                <li>Local girl made good, outgrown her small-town roots. Quiet strength. Briefly inhabits the character of True in Act II</li>
+            </ul> -->
             <br>
-            <ul>
           <br>
         </div>
 
