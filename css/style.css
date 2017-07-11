@@ -1100,6 +1100,11 @@ footer {
         position: relative;
         padding-bottom: 70%
     }
+    
+    .slick-prev,
+    .slick-next {
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-width: 35em) {
