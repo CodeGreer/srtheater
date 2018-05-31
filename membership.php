@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
     
     <title>Memberships | Staged Right Theatre</title>
 
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/style.min.css" />
     
 <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Codystar|Great+Vibes" rel="stylesheet"> 
     
 <!-- Javascript -->  
     
@@ -49,22 +49,28 @@
 <!-- Main -->
     <main>
         <div class="content_light">
-            <h2>May 15th - June 15th</h2>
+            <h2>May 15th - July 15th</h2>
             
             <!-- <figure>
                 <img class="img" alt="Poster for the Staged Right theatre's show Wait!" src="images/WaitPoster.jpg">
             </figure> -->
             
-            <p class="font_75 bold">Our membership drive has begun!</p>
+            <p class="font_75 bold">Our membership drive has closed!</p>
+
+            <p> Thank you to the following 17/18 Season Members:<br>
+             Janet and Brian Conant<br>
+             Robbie Summerour<br>
+             Margaret Carter<br>
+             Linda Johnson</p>
 
             <p>Memberships are $50, and benefits include:<br>
             Discounted show tickets<br>
             Invitations to member-only events<br>
             Listed as a member on our website and in programs<br><br>
                 
-            <a class="black_bold" href=" https://www.paypal.me/stagedrighttheatrega">Payments via PayPal can be made here.</a></p>
+            <!--<a class="black_bold" href=" https://www.paypal.me/stagedrighttheatrega">Payments via PayPal can be made here.</a></p>
 
-            <p>From May 15th - June 15th, new memberships will unlock the following events:</p>
+            <p>From May 15th - July 15th, new memberships will unlock the following events:</p>
         </div>
 
         <div class="content_light">
@@ -106,7 +112,7 @@
                 Members will choose, by vote, a type of makeover for all board members will undergo.</p>
 
                 <p><span class="bold font_25">When we reach 100 new members:</span><br>
-                A dunk tank will be brought in at Theatre Under The Stars, and members will choose, by vote, board members to be in the dunk tank.</p> 
+                A dunk tank will be brought in at Theatre Under The Stars, and members will choose, by vote, board members to be in the dunk tank.</p> -->
             </div>
         </div>
     </main>

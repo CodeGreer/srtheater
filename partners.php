@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/style.min.css" />
     
 <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Codystar|Great+Vibes" rel="stylesheet"> 
     
 <!-- Javascript -->  
     

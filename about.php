@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/style.min.css" />
     
 <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Codystar|Great+Vibes" rel="stylesheet"> 
     
 <!-- Javascript -->  
    
@@ -67,15 +67,16 @@
                     President - Dave Huenergardt<br>
                     Secretary - Ilene Miller<br>
                     Treasurer - Paul Franklin<br>
-                    Members-at-Large - Shannon Varner-Alexander, Kendal Franklin, Starshine Stanfield, Brian Jones
+                    Members-at-Large - Shannon Varner-Alexander, Kendal Franklin, Starshine Stanfield, Brian Jones, Robbie Summerour
                 </p>
 
                 <p></p>
 
                 <p>
                     <span class="bold font_25">Staff:</span><br>
-                    Artistic Director - Starshine Stanfield<br>
-                    Managing Director - Kendal Franklin<br>
+                    Artistic Director - <br>Starshine Stanfield<br>
+                    Associate Artistic Director - <br>Jim Nelson<br>
+                    Managing Director - <br>Kendal Franklin<br>
                     <br> 
                     <span class="bold font_25">Contact us:</span><br> 
                     <a class="black_bold" href="mailto:info@stagedrighttheatre.org">info@stagedrighttheatre.org</a>

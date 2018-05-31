@@ -46,7 +46,7 @@
     <link rel="stylesheet" href="css/style.min.css" />
     
 <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Codystar|Great+Vibes" rel="stylesheet"> 
     
 <!-- Javascript -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -82,7 +82,7 @@
             <div class="leftcurtain"><img alt="Red theatre curtain, left side" src="images/leftfrontcurtain.png"/></div>
             <div class="rightcurtain"><img alt="Red theatre curtain, right side" src="images/rightfrontcurtain.png"/></div>
             <img class="marquee" alt="Staged Right theatre Presents marquee" src="images/sr_presents.png"/>
-            <h3 class="h3_index"><a class="white show" href="show.php">Act A Lady<span class="font_12">!</span></a><br>May 12 -<span class="rwd_break_800"><br></span>21, 2017</h3>
+            <h3 class="h3_index"><a class="white show" href="show.php">Night, Mother<span class="font_12">!</span></a><br>April 27 - May 6,<span class="rwd_break_800"><br></span>2018</h3>
             <a href="tickets.php"><img class="img buytickets_home" alt="Buy Staged Right theatre tickets" src="images/buytickets.png"></a>
         </div>  
     </noscript>
@@ -95,7 +95,7 @@
                 <div class="leftcurtain"><img alt="Red theatre curtain, left side" src="images/leftfrontcurtain.png"/></div>
                 <div class="rightcurtain"><img alt="Red theatre curtain, right side" src="images/rightfrontcurtain.png"/></div>
                 <img class="marquee" alt="Staged Right theatre Presents marquee" src="images/sr_presents.png"/>
-                <h3 class="h3_index"><a class="white show" href="show.php">Theatre Under The Stars<span class="font_12"></span></a><br>July<span class="rwd_break_800"><br></span> 15, 2017</h3>
+                <h3 class="h3_index"><a class="white show" href="show.php">Theatre Under The Stars<span class="font_12"></span></a><br>July 14, <span class="rwd_break_800"><br></span>2018</h3>
                 <a href="tickets.php"><img class="img buytickets_home" alt="Buy Staged Right theatre tickets" src="images/buytickets.png"></a>
             </div> 
         </section> 
@@ -109,13 +109,13 @@
     <div class="content_dark">
         <br>
         <div class="slider single-item">
-            <div><img src="images/HomepageSeasonImage.png"></div>
-            <div><img src="images/MembershipDrive.png"></div>
-            <!-- <div><img src="images/Act_A_Lady/_IGP4107.jpg"></div>
-            <div><img src="images/Act_A_Lady/_IGP4128.jpg"></div>   -->     
-        </div>
-        <br>
-    </div>
+            <div><img src="images/1819WebBannerTBD.png"></div>
+            <div><a href="https://ticketpeak.com/res/stagedrighttheatrega"><img src="images/2018DirectorWorkshop.png"></a></div>
+            <div><a href="https://docs.google.com/forms/d/e/1FAIpQLSfHtgLqV1x6pe4z8K_E6TJThdZrAeyMC8LVPhPw0RlLB9syFA/viewform"><img src="images/2018StageManagementWorkshop.png"></a></div>
+            <div><a href="https://soundcloud.com/stagedrighttheatre"><img src="images/directorsroundtablebanner.png"></a></div>               
+            </div>
+          <br>
+       </div>
     
     <div class="home_flex">
         <div>

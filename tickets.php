@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/style.min.css" />
     
 <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Codystar%7CGreat+Vibes' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Codystar|Great+Vibes" rel="stylesheet"> 
     
 <!-- Javascript -->  
     
@@ -49,24 +49,27 @@
         <div class="content_light">
             <h2>Now Showing</h2>
             
-            <figure>
-                <img class="img image_pad" src="images/AALPoster.png">
-            </figure>
-
+            <!--<figure>
+                <img class="img image_pad" src="images/NightMotherPrePromo.png">
+            </figure>-->
+            
             <ul>
-                <li class="bold">Tickets are:</li>
+            <p class="font_60"><a class="black_bold"><span class="italic">Theatre Under The Stars</span></a></p>
+            <li> July 14, 2018</li>
+            <p>Purchase tickets <a class="black_bold" href="https://ticketpeak.com/res/stagedrighttheatrega">online</a>.</p>
+            <p><li>All tickets are $20.00</li>
+            <!--<li>$12.00 - Students/Seniors</li>
+            <li>$12.50 - Members - Adult</li>
+            <li>$10.00 - Members - Students/Seniors</li></p>
+            <p><a class="black_bold" href="mailto:stagedrighttheatrega@gmail.com">Contact</a> for group rates.</p><br>-->
+            <br>
 
-                <li>$15.00 - Adults</li>
-                <li>$12.00 - Students/Seniors (55 & up)</li>
-                <li>$12.50 - Members</li>
-                <li>$10.00 - Student/Senior Members</li>
-                <br>
-                <li><a class="black_bold" href="mailto:stagedrighttheatrega@gmail.com">Contact</a> for group rates.</li>
+<p>Performances will be held at<br>
+            <a class="black_bold" href="https://www.google.com/maps/place/595+Johannah+Pl+SW,+Lilburn,+GA+30047/@33.8792598,-84.1016698,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5bb2a9a7e621b:0x63476c58d08a9d21!8m2!3d33.8792598!4d-84.0994811">Hanarry Swim & Racquet Club<br>595 Johannah Pl SW<br>
+            Lilburn, GA 30047</a></p>
+
             </ul>
-            <br><br>
-            
-            <p>Tickets can be purchased at the door, or <a class="black_bold" href="https://ticketpeak.com/res/stagedrighttheatrega">online</a>.</p>
-            
+                     
           
         </div>
     </main>
